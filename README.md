@@ -4,10 +4,9 @@
     <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://img.shields.io/badge/linkedin-%230177B5?style=flat&logo=linkedin&logoColor=white"/></a>
   </p>
 
-<p style="font-size=25px">
+<p style="font-size=:25px">
 Passionate front-end developer dedicated to crafting exceptional web experiences. With a keen eye for design and a commitment to user-friendly interfaces, I am eager to join a team where I can learn, grow, and contribute to meaningful projects. Enthusiastic about collaborating and continually improving my skills to deliver high-quality results.
 </p>
-
 &nbsp;
 
 ## 🧰 &nbsp;My toolbox
