@@ -1,8 +1,9 @@
 <h1 align="center">Hi I'm Abdelrahman 👋</h1>
 
 <h4 align="center">
-    <a href="https://x.com/abd0_khalifa"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/:abd0_khalifa"></a>
-    <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://img.shields.io/badge/linkedin-%230177B5?style=flat&logo=linkedin&logoColor=white"/></a>
+ <a href="https://github.com/AbdoAhmed-Khalifa" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-@milaan9-181717?style=flat-square&logo=GitHub&logoColor=white"></a>
+ <a href="https://x.com/abd0_khalifa"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/:abd0_khalifa"></a>
+  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-milaanparmar-0077B5?style=flat-square&logo=Linkedin&logoColor=white"></a>
 </h4>
 
 <div align="center" >
@@ -21,3 +22,22 @@ Passionate front-end developer dedicated to crafting exceptional web experiences
 ## 🧰 &nbsp;My toolbox
 
 <img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/html5/html5-plain.svg" alt="HTML5" width="50" height="50"/> &nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-original.svg" alt="CSS3" width="50" height="50"/>&nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>&nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/typescript/typescript-original.svg" alt="typecript" width="50" height="50"/>&nbsp; <img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/react/react-original.svg" alt="ReactJS" width="50" height="50" style="margin:0 auto; display:block;"/> &nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/redux/redux-original.svg" alt="redux" width="50" height="50" style="margin:0 auto; display:block;"/> &nbsp;<img  src="https://github.com/CyrisXD/CyrisXD/raw/master/assets/NextJS.png" alt="NextJS"/> &nbsp; <img  src="https://github.com/CyrisXD/CyrisXD/raw/master/assets/TailwindCSS.png" alt="TailwindCSS"/> &nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/bootstrap/bootstrap-original.svg" alt="bootstrap"  width="50" height="50"/> &nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/sass/sass-original.svg" alt="sass"  width="50" height="50"/>&nbsp;<img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/firebase/firebase-plain-wordmark.svg" alt="Firebase" width="50" height="50"/> &nbsp;<img  src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/vscode/vscode-original.svg" alt="VSCode" width="50" height="50"/> &nbsp;<img  src="https://github.com/CyrisXD/CyrisXD/raw/master/assets/Github.png" alt="Github"/>
+
+&nbsp;
+
+<div align="center">
+<h3> Connect with me<a href="https://gifyu.com/image/Zy2f"><img src="https://github.com/milaan9/milaan9/blob/main/Handshake.gif" width="60"></a>
+</h3> 
+<p align="center">
+    <a href="https://www.linkedin.com/in/milaanparmar" target="_blank"><img alt="LinkedIn" width="25px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg"></a>
+    <a href="https://www.instagram.com/milaanparmar9" target="_blank"><img alt="Instagram" width="25px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg"></a>
+    <a href="https://www.facebook.com/milaanparmar" target="_blank"><img alt="Facebook" width="25px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"></a>
+    <a href="mailto:milaanparmar9@gmail.com" target="_blank"><img alt="Gmail" width="25px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg"></a> 
+</p>  
+    
+<p align="center">
+    <a href="https://github.com/milaan9/milaan9/actions"><img alt="Build README" src="https://github.com/milaan9/milaan9/workflows/Build%20README/badge.svg"></a>
+    <a href="https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master?urlpath=lab" target="_blank"><img alt="Python" src="https://mybinder.org/badge_logo.svg"></a>
+<!--https://mybinder.org/v2/gh/jupyterlab/jupyterlab-demo/master-->
+</p>
+</div>
