@@ -3,7 +3,7 @@
 <h4 align="center">
  <a href="https://github.com/AbdoAhmed-Khalifa" target="_blank"><img alt="GitHub" src="https://img.shields.io/badge/-@AbdoAhmed-Khalifa?style=flat-square&logo=GitHub&logoColor=white"></a>
  <a href="https://x.com/abd0_khalifa"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/:abd0_khalifa"></a>
-  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-abdelrahman-ahmed-khalifa?style=flat-square&logo=Linkedin&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/-abdelrahman--ahmed--khalifa-0077B5?style=flat-square&logo=Linkedin&logoColor=white"></a>
 </h4>
 
 <div align="center" >
