@@ -1,11 +1,11 @@
 <h1 align="center">Hi I'm Abdelrahman 👋</h1>
 
-<img src="./WebDevelopment.gif" alt="web Development gif">
-
 <h4 align="center">
     <a href="https://x.com/abd0_khalifa"><img alt="X (formerly Twitter) Follow" src="https://img.shields.io/twitter/follow/:abd0_khalifa"></a>
     <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://img.shields.io/badge/linkedin-%230177B5?style=flat&logo=linkedin&logoColor=white"/></a>
 </h4>
+
+<img src="./WebDevelopment.gif" width="200" height="200" alt="web Development gif">
 
 <p>
 Passionate front-end developer dedicated to crafting exceptional web experiences. With a keen eye for design and a commitment to user-friendly interfaces, I am eager to join a team where I can learn, grow, and contribute to meaningful projects. Enthusiastic about collaborating and continually improving my skills to deliver high-quality results.
