@@ -14,7 +14,7 @@
 ## 👇 &nbsp;About Me
 
 <p>
-Passionate front-end developer dedicated to crafting exceptional web experiences. With a keen eye for design and a commitment to user-friendly interfaces, I am eager to join a team where I can learn, grow, and contribute to meaningful projects. Enthusiastic about collaborating and continually improving my skills to deliver high-quality results.
+Passionate front-end developer focused on creating exceptional web experiences. With a keen sense of design and a deep interest in user-friendly interfaces, I am eager to join a team where I can learn, grow, and contribute to meaningful projects. I am enthusiastic about collaboration and committed to continuously improving my skills to deliver high-quality results.
 </p>
 
 &nbsp;
