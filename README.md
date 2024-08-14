@@ -14,7 +14,7 @@
 ## 👇 &nbsp;About Me
 
 <p>
-Passionate front-end developer focused on creating exceptional web experiences. With a keen sense of design and a deep interest in user-friendly interfaces, I am eager to join a team where I can learn, grow, and contribute to meaningful projects. I am enthusiastic about collaboration and committed to continuously improving my skills to deliver high-quality results.
+I’m a front-end developer with a passion for creating great web and mobile experiences. I enjoy working with technologies like React, Next.js, Tailwind CSS, and React Native to build user-friendly, responsive designs. I care about writing clean, maintainable code and optimizing for SEO.I’m always eager to learn and grow, and I’m excited about the opportunity to join a team where I can contribute to meaningful projects. Let’s connect!
 </p>
 
 &nbsp;
