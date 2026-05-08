@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%" alt="Banner"/>
+</div>
+
 <h1 align="center">Hi, I'm Abdelrahman Khalifa 👋</h1>
 
 <h3 align="center">Frontend Developer · React · Next.js · TypeScript</h3>
@@ -20,10 +24,6 @@
   </a>
 </p>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" height="300" alt="Web Development"/>
-</div>
-
 ---
 
 ## 👇 About Me
@@ -40,48 +40,9 @@ Motivated and fast-learning **Front-End Developer** with hands-on experience bui
 
 ## 🧰 My Toolbox
 
-**Languages & Core**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" title="HTML5" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" width="50" height="50"/></td>
-</tr></table>
-
-**Frameworks & Libraries**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React.js" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="Next.js" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" title="Redux Toolkit" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" title="React Router" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" title="Express.js" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" title="Angular" width="50" height="50"/></td>
-</tr></table>
-
-**Styling & Animations**
-
-<table><tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" title="Sass" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" title="Material UI" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg" title="Framer Motion" width="50" height="50"/></td>
-</tr></table>
-
-**Backend, Databases & Tools**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" title="MongoDB" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" title="Supabase" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" title="Jest" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" title="VS Code" width="50" height="50"/></td>
-</tr></table>
+<div align="center">
+  <img src="./toolbox.png" width="100%" alt="My Toolbox — 3D Glassmorphism"/>
+</div>
 
 ---
 
