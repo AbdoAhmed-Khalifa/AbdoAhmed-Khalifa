@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://www.abdelrahmankhalifa.com/">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=600&lines=React+%C2%B7+Next.js+%C2%B7+TypeScript;Building+FreightIn+at+FTL+Group;Shipping+fast%2C+accessible+UIs;Open+to+remote+%26+hybrid+roles" alt="Typing intro"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=640&lines=I+turn+Figma+into+pixel-perfect+React;Shipping+FreightIn+%E2%80%94+live+B2B+logistics;Building+Masroof+%E2%80%94+offline+money+tracking;Next.js+%C2%B7+TypeScript+%C2%B7+React+Native" alt="I turn Figma into pixel-perfect React"/>
   </a>
 </p>
 
@@ -14,68 +14,57 @@
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://x.com/abd0_khalifa"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
   <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://komarev.com/ghpvc/?username=AbdoAhmed-Khalifa&style=for-the-badge&color=1e3a8a&label=Profile+views" alt="Profile views"/>
 </p>
 
 <!-- ============ ABOUT ============ -->
-## 👨‍💻 About Me
+## 👋 Hey, I'm Abdelrahman
 
-<img align="right" src="./WebDevelopment.gif" width="300" alt="Web development illustration"/>
+<img align="right" src="./WebDevelopment.gif" width="280" alt="Web development illustration"/>
 
-Frontend Developer building responsive, high-performance web apps with **React**, **Next.js** and **TypeScript**. I care about clean architecture, smooth UX and shipping fast — and I use AI tools daily for refactoring, debugging and automating the boring parts.
+I build the screens people rely on when real things are on the line — **shipping containers crossing oceans** and **the money in their pocket**.
 
-- 🚢 **Now:** Frontend Developer at **FTL Group** — building **FreightIn**, a live B2B maritime logistics platform
-- 🧑‍🏫 **Before:** External Instructor at **ITI** — taught 50+ students HTML, CSS, JS & React
-- 🎓 **ITI** Front-End & Cross-Platform Mobile · **B.Sc. CS**, Sohag University
-- 💬 **Ask me about:** React, Next.js App Router, TanStack Query, Tailwind, animations
-- 🌍 Based in **Cairo, Egypt** · open to **remote, hybrid & on-site** roles
+By day I'm shipping **[FreightIn](https://freightin.net)**, a live B2B maritime logistics platform, at FTL Group. By night I'm building **Masroof**, an Arabic-first Android app that reads Egyptian bank SMS and turns them into a private, offline budget — no typing, no cloud, nothing leaves the phone.
+
+**2+ years** of production React, Next.js and TypeScript. I sweat the details: pixel-accurate Figma handoffs, fast first paint, and component systems the next developer actually enjoys working in.
 
 <br clear="right"/>
 
-<!-- ============ STACK ============ -->
-## 🧰 Tech Stack
+```ts
+const abdelrahman = {
+  role:      "Frontend Developer @ FTL Group",
+  location:  "Cairo, Egypt 🇪🇬",
+  shipping:  ["FreightIn", "TraderIn", "Taj"],
+  building:  "Masroof — offline expense tracker for Android",
+  stack:     ["React", "Next.js", "TypeScript", "Tailwind", "TanStack Query", "React Native"],
+  obsessedWith: ["Figma → pixel-perfect", "Core Web Vitals", "RTL & i18n", "clean architecture"],
+  pairsWith: ["Claude", "Codex"],
+  speaks:    ["Arabic (native)", "English (professional)"],
+  openTo:    "remote · hybrid · on-site",
+};
+```
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,tailwind,nodejs,express&perline=8" alt="Core stack"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=html,css,sass,materialui,bootstrap,angular,supabase,firebase&perline=8" alt="Styling, frameworks & backend"/>
-  <br/>
-  <img src="https://skillicons.dev/icons?i=mongodb,jest,git,github,vercel,figma,postman,vscode&perline=8" alt="Tools"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query"/>
-  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/>
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
-  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
-  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
-  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" alt="Recharts"/>
-  <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router"/>
-</p>
-
-<!-- ============ EXPERIENCE ============ -->
-## 💼 Experience
+<!-- ============ STRENGTHS ============ -->
+## ⚡ What I Bring
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🚢 Front-End Developer</h3>
-      <b>FTL Group</b> · Cairo<br/>
-      <sub>Jan 2025 – Present</sub>
-      <ul>
-        <li>Build and maintain <b>FreightIn</b>, a live B2B maritime logistics platform, with Next.js & React</li>
-        <li>Applied clean-code practices that cut UI bugs and improved maintainability</li>
-        <li>Use AI tools (Claude, ChatGPT) to speed up debugging and refactoring</li>
-      </ul>
+      <h4>🎨 Figma → Production</h4>
+      Responsive, pixel-accurate pages verified across browsers and breakpoints — with accessibility and RTL baked in, not bolted on.
     </td>
     <td width="50%" valign="top">
-      <h3>🧑‍🏫 External Instructor</h3>
-      <b>Information Technology Institute (ITI)</b> · Sohag<br/>
-      <sub>May 2024 – Jan 2025</sub>
-      <ul>
-        <li>Taught 50+ students HTML, CSS, JavaScript and React fundamentals</li>
-        <li>Supervised 10+ practical assignments, building students' coding confidence</li>
-      </ul>
+      <h4>🚀 Performance</h4>
+      Cut Largest Contentful Paint on FreightIn by lazy-loading heavy dependencies and killing render-blocking work.
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🧱 Architecture</h4>
+      Set up the feature-based structure and shared component layer the FreightIn team still builds on today.
+    </td>
+    <td width="50%" valign="top">
+      <h4>🔌 Data-heavy UIs</h4>
+      REST APIs wired through TanStack Query with real loading, error and empty states — dashboards that never leave users guessing.
     </td>
   </tr>
 </table>
@@ -86,43 +75,117 @@ Frontend Developer building responsive, high-performance web apps with **React**
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://freightin.net/en">🚢 FreightIn ↗</a></h3>
-      Container-booking logistics platform for B2B shipping.<br/><br/>
+      <h3><a href="https://freightin.net">🚢 FreightIn ↗</a></h3>
+      <sub><b>Live · B2B maritime logistics</b></sub>
+      <p>Book freight like booking a flight. Sea, air and land rate search, multi-step quotation requests and shipment tracking — built from Figma to production.</p>
       <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-      <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
       <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
     </td>
     <td width="50%" valign="top">
-      <h3>🛒 Trader In</h3>
-      B2B e-commerce platform for bulk product trading.<br/><br/>
-      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
-      <img src="https://img.shields.io/badge/shadcn%2Fui-000?style=flat-square&logo=shadcnui"/>
-      <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square"/>
+      <h3>💸 Masroof · مصروف</h3>
+      <sub><b>Android · personal project · private repo</b></sub>
+      <p>Your bank texts you, Masroof does the bookkeeping. Parses SMS from CIB, NBE, Banque Misr, Vodafone Cash, valU and more into categorised transactions — budgets, subscriptions, installments, جمعية tracking and encrypted backups. Fully offline, zero network calls.</p>
+      <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"/>
+      <img src="https://img.shields.io/badge/NativeWind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🏨 Oasis Hotel Website</h3>
-      SSR hotel website with real-time content and bookings.<br/><br/>
+      <h3><a href="https://traderin.net">🛒 TraderIn ↗</a></h3>
+      <sub><b>Live · B2B wholesale marketplace</b></sub>
+      <p>Bulk trading made simple. Seller admin dashboards for orders, product catalogue and sales analytics with interactive charts.</p>
       <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
-      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/shadcn%2Fui-000?style=flat-square&logo=shadcnui"/>
+      <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square"/>
     </td>
     <td width="50%" valign="top">
-      <h3>📊 Oasis Hotel Dashboard</h3>
-      Hotel management dashboard with charts & reservations.<br/><br/>
-      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-      <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
-      <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square"/>
-      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+      <h3><a href="https://tajteach.com">🎓 Taj ↗</a></h3>
+      <sub><b>Live · education platform</b></sub>
+      <p>One platform, three worlds. Role-based dashboards that give students, teachers and admins exactly what they need — and nothing they don't.</p>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+      <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square"/>
     </td>
   </tr>
 </table>
 
+<!-- ============ EXPERIENCE ============ -->
+## 💼 Experience
+
+<table>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>🚢 Front-End Developer · FTL Group</h3>
+      <sub>Cairo · Jan 2025 – Present · short break Jan – Mar 2026 at Coretech</sub>
+      <ul>
+        <li>Built the <b>FreightIn</b> front end from Figma and now maintain and extend it: rate search, quotation requests, shipment tracking</li>
+        <li>Ship pixel-accurate pages in React, Next.js, TypeScript & Tailwind, verified across browsers and breakpoints</li>
+        <li>Wire REST APIs through TanStack Query with proper loading, error and empty states on rate search and dashboards</li>
+        <li>Reduced <b>LCP</b> by lazy-loading heavy dependencies and removing render-blocking work</li>
+        <li>Set up the feature-based folder structure and shared component layer the team still builds on</li>
+        <li>Built type-safe multi-step forms with React Hook Form and smooth Framer Motion step transitions</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ Web Developer · Coretech Innovation</h3>
+      <sub>Cairo · Jan 2026 – Mar 2026</sub>
+      <ul>
+        <li>Built admin dashboards and control UIs for <b>EV charging</b> systems and EEBUS integration</li>
+        <li>Delivered data-dense IoT & e-mobility monitoring interfaces on REST APIs</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧑‍🏫 Front-End Instructor · ITI</h3>
+      <sub>Sohag · May 2024 – Jan 2025</sub>
+      <ul>
+        <li>Taught HTML, CSS, JavaScript and React to <b>50+ students</b></li>
+        <li>Supervised 10+ hands-on projects and reviewed student code on component design and state management</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!-- ============ STACK ============ -->
+## 🧰 Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,tailwind,redux,html,css&perline=8" alt="Core stack"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=kotlin,sqlite,nodejs,sass,materialui,bootstrap,jest,figma&perline=8" alt="Mobile, styling & testing"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=git,github,gitlab,vscode&perline=8" alt="Tools"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query"/>
+  <img src="https://img.shields.io/badge/Zustand-443E38?style=flat-square&logo=react&logoColor=white" alt="Zustand"/>
+  <img src="https://img.shields.io/badge/React_Hook_Form-EC5990?style=flat-square&logo=reacthookform&logoColor=white" alt="React Hook Form"/>
+  <img src="https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white" alt="Zod"/>
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/>
+  <img src="https://img.shields.io/badge/Ant_Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
+  <img src="https://img.shields.io/badge/GSAP-0AE448?style=flat-square&logo=greensock&logoColor=black" alt="GSAP"/>
+  <br/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
+  <img src="https://img.shields.io/badge/i18next-26A69A?style=flat-square&logo=i18next&logoColor=white" alt="i18next"/>
+  <img src="https://img.shields.io/badge/Testing_Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white" alt="React Testing Library"/>
+  <img src="https://img.shields.io/badge/Lighthouse-F44B21?style=flat-square&logo=lighthouse&logoColor=white" alt="Lighthouse"/>
+  <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude"/>
+  <img src="https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white" alt="Codex"/>
+</p>
+
 <!-- ============ STATS ============ -->
-## 📈 GitHub Stats
+## 📈 GitHub Activity
 
 <p align="center">
   <picture>
@@ -142,8 +205,16 @@ Frontend Developer building responsive, high-performance web apps with **React**
   </picture>
 </p>
 
+<!-- ============ EDUCATION ============ -->
+## 🎓 Education
+
+- **Front-End & Cross-Platform Mobile Development Diploma** — Information Technology Institute (ITI) · *Nov 2023 – Apr 2024*
+- **B.Sc. Computer Science** — Sohag University · *2017 – 2021*
+
 <!-- ============ CONNECT ============ -->
-## 🤝 Let's Connect
+## 🤝 Let's Build Something
+
+Hiring for a frontend role, or have a product that deserves a sharp, fast interface? My inbox is open.
 
 <p align="center">
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/></a>&nbsp;
