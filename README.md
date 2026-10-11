@@ -67,17 +67,21 @@ Frontend Developer with **2+ years** building production web apps in **React**, 
 
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td colspan="2" valign="top">
       <h3>🚢 Front-End Developer</h3>
       <b>FTL Group</b> · Cairo<br/>
-      <sub>Apr 2026 – Present</sub>
+      <sub>Jan 2025 – Present · short break Jan – Mar 2026 at Coretech</sub>
       <ul>
-        <li>Build and maintain <b>FreightIn</b> with React, Next.js, TypeScript & Tailwind</li>
-        <li>Turn Figma designs into pixel-accurate pages, verified across browsers & breakpoints</li>
+        <li>Built the <b>FreightIn</b> front end from Figma and now maintain it: rate search, quotation requests, shipment tracking</li>
+        <li>Turn Figma designs into pixel-accurate pages with React, Next.js, TypeScript & Tailwind, verified across browsers & breakpoints</li>
         <li>Integrate REST APIs with TanStack Query — loading, error & empty states on rate search and dashboards</li>
-        <li>Extend the component library and fix UI bugs reported from production</li>
+        <li>Reduced LCP by lazy-loading heavy dependencies and removing render-blocking work</li>
+        <li>Set up the feature-based folder structure and shared component layer the team still builds on</li>
+        <li>Built type-safe multi-step forms with React Hook Form and Framer Motion transitions</li>
       </ul>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>⚡ Web Developer</h3>
       <b>Coretech Innovation</b> · Cairo<br/>
@@ -85,19 +89,6 @@ Frontend Developer with **2+ years** building production web apps in **React**, 
       <ul>
         <li>Built admin dashboards and control UIs for EV charging systems and EEBUS integration (React, TypeScript)</li>
         <li>Built responsive, data-dense IoT & e-mobility monitoring interfaces on REST APIs</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚢 Front-End Developer</h3>
-      <b>FTL Group</b> · Cairo<br/>
-      <sub>Jan 2025 – Dec 2025</sub>
-      <ul>
-        <li>Built the FreightIn front end from Figma: rate search, quotation requests, shipment tracking</li>
-        <li>Reduced LCP by lazy-loading heavy dependencies and removing render-blocking work</li>
-        <li>Set up the feature-based folder structure and shared component layer the team still builds on</li>
-        <li>Built type-safe multi-step forms with React Hook Form and Framer Motion transitions</li>
       </ul>
     </td>
     <td width="50%" valign="top">
