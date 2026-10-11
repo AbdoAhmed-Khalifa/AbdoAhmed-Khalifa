@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"/>
-  <img src="./assets/hero-light.svg" width="100%" alt="Abdelrahman Khalifa — Frontend Developer in Cairo, Egypt, open to new opportunities. I build the interfaces people trust with real cargo and real money, from Figma to production. 2+ years in production, 3 live platforms, 50+ students taught, Arabic/English RTL-first."/>
+  <img src="./assets/hero-light.svg" width="100%" alt="Abdelrahman Khalifa — Frontend Developer in Cairo, Egypt, open to new opportunities. I build the interfaces people trust with real cargo and real money, from Figma to production. 2+ years in production, 3 live platforms, and web plus mobile (React and React Native)."/>
 </picture>
 
 <p>
