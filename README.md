@@ -19,29 +19,18 @@
 <!-- ============ ABOUT ============ -->
 ## 👋 Hey, I'm Abdelrahman
 
-<img align="right" src="./WebDevelopment.gif" width="280" alt="Web development illustration"/>
-
 I build the screens people rely on when real things are on the line — **shipping containers crossing oceans** and **the money in their pocket**.
 
 By day I'm shipping **[FreightIn](https://freightin.net)**, a live B2B maritime logistics platform, at FTL Group. By night I'm building **Masroof**, an Arabic-first Android app that reads Egyptian bank SMS and turns them into a private, offline budget — no typing, no cloud, nothing leaves the phone.
 
 **2+ years** of production React, Next.js and TypeScript. I sweat the details: pixel-accurate Figma handoffs, fast first paint, and component systems the next developer actually enjoys working in.
 
-<br clear="right"/>
-
-```ts
-const abdelrahman = {
-  role:      "Frontend Developer @ FTL Group",
-  location:  "Cairo, Egypt 🇪🇬",
-  shipping:  ["FreightIn", "TraderIn", "Taj"],
-  building:  "Masroof — offline expense tracker for Android",
-  stack:     ["React", "Next.js", "TypeScript", "Tailwind", "TanStack Query", "React Native"],
-  obsessedWith: ["Figma → pixel-perfect", "Core Web Vitals", "RTL & i18n", "clean architecture"],
-  pairsWith: ["Claude", "Codex"],
-  speaks:    ["Arabic (native)", "English (professional)"],
-  openTo:    "remote · hybrid · on-site",
-};
-```
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/about-dark.svg"/>
+    <img src="./assets/about-light.svg" width="100%" alt="Now: Frontend Developer at FTL Group shipping FreightIn. Building: Masroof, an offline Arabic-first expense tracker for Android. Focus: Figma to pixel-perfect, Core Web Vitals, RTL and i18n. Based in Cairo, Egypt. 2+ years in production, 3 live platforms shipped, 50+ students taught."/>
+  </picture>
+</p>
 
 <!-- ============ STRENGTHS ============ -->
 ## ⚡ What I Bring
