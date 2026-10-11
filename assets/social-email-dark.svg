@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="36" viewBox="0 0 89 36" role="img" aria-label="Email">
+<title>Email</title>
+<defs></defs>
+<style>
+@font-face{font-family:'medium';src:url(data:font/woff2;base64,d09GMk9UVE8AAASoAAwAAAAAB4wAAARaAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAADYYXGhYbgSgcKgZgAFQBNgIkAxwEBgWCaAcgG7YGUZRSlYviZ0FORs3LSwkNTcTDg/BA1HKPu4iIEDKr1TJ/p6633c/kguff/cr78pOZLCCo3QKTAgRZR9kCkGp1NTDISsycSeGoLlt10otwTgitud25gKjzT/iJLz4+gms2HeS/uUEADF1T739r2tseFyU4wAeeyMciKQtHadWAAxxQ4SypmlIkBSY+EJxGbuJ25FGdWLX13oJWiEjGO3LNro8IIuPP0Vcsk4jl0sRaDYlKWWK9PLFcET6mR95ToysTRtp2OufGpht+XF1usDkwc6bxpSbH9DO5frGZhIjolrwqrY9buxqaLXIT/8NQHccWWql9DfLMQktLa32rW7fIrdu/5ejmFdKsPs1fJqtZ6jZT4M5IoDGKJFJJQ0pcIUQMAfi8xIug1Crzl/EU+AKxHPPFDCyQYiBulGMgLE0OAsN2k/kKEhXLid4BgnzYAWSYizKxF8L+GeN+qzGWLe+YTcV48+d+qTjmm1gjNjIBBe6MWNmyFIfDr/eXvtoDYLgWCK4krw0FMKDvIYAPwv6HYRhYVgwhIzQ8TKVYnUuOPPjw2jcC5brQAu4NdMGUunEDIV3aWGEbZdpW1pgNYYflzkBowkCWgQJY7txFH7uUZYH3VfeLAhr+Ou9N99Ab+3zY3mMXLDBr4thyi5DO4sEa/91wYH3y9wbMxp25Ph2PhC2+ifvom2GpXwkGZn8bRg7nfvoIw5e+cndvuGfW3R11IxxoOKSMhwEWou9mvqqubzl5ukHQAVfKRQUwFlQQhTXJFlKmyzjxKNupyRjM7eo0x+bFO0MschmS4EoxFuvFGGzmrte/jT6ZAPr/++KzgKIKXvUCpqZufoBgfRaoQrDyxTdfxTeAz6MgR9AEN0MT0+8IHljAJoNl3sDW+U9gznSGd3D+Gib14e6HEmBmUVnMneZdmPA84U4wHozx3wTj1rPJ32f9z3OxdY7DzEJ2apRHNSqnUfssFbap1yheFtSUAukAgEIQDIIAqdR7yQYNGTUJ46Wz1i7HGA2wmWYsmbd6ORQQiibFJKEvRQEWRTcFMIAsFBg8bWcsEBJKIkBIBGmL6iy20YG1osCbrE2z/CVgOuprwBGioB5wXJ2MEIuQcBEDMnDCxNETuUp1ffzyP3OJ4ZDvGVE93TxNr6aAgq4i+XKSpCvoh4R0bOXp1bFUIlDfOS0CdR+wi0474lDzFAJ6oRWDvh+ekdXrF40sAF82TdxO0l9N/P+hyVhmB4QKQNNdfVkWNh1qu9AbHjf9ZJh+xnntmKg0G3XevniZvKpFAuO4cVInI0d0CkMDJEJxhkSRyUJJxAg6GnVGiaHL1d8co/g/0TTSRDctCGjR0YaFl4enn0UOOngsEmmgDZ4WLDJooZGN8FTThkUk7bSho5EWWrPvmgpPDQLt1JMFj5Z26qikBR83D98drM3Wvw3XSny9PL1txDdQMTiLbFIbgytXdgV5VOPtINBIAxZ2ZVVa5Xiq/l3kOAAAAA==) format('woff2');}
+.f-medium{font-family:'medium',-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;}
+</style>
+<rect x="0.5" y="0.5" width="88" height="35" rx="10" fill="#161b22" stroke="#30363d"/>
+<path transform="translate(14 10.0) scale(0.6666666666666666)" d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z M22 7l-10 6L2 7" fill="none" stroke="#f0f6fc" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="39.0" y="23.0" class="f-medium" font-size="14" fill="#f0f6fc">Email</text>
+</svg>
