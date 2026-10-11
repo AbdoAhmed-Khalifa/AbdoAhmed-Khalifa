@@ -1,137 +1,157 @@
-<h1 align="center">Hi, I'm Abdelrahman Khalifa 👋</h1>
-
-<h3 align="center">Frontend Developer · React · Next.js · TypeScript</h3>
+<!-- ============ HEADER ============ -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a8a,100:06b6d4&height=200&section=header&text=Abdelrahman%20Khalifa&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Frontend%20Developer%20%C2%B7%20Cairo%2C%20Egypt&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Abdelrahman Khalifa — Frontend Developer"/>
+</p>
 
 <p align="center">
-  <a href="https://github.com/AbdoAhmed-Khalifa" target="_blank">
-    <img alt="GitHub" src="https://img.shields.io/badge/-AbdoAhmed--Khalifa-181717?style=flat-square&logo=GitHub&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/-abdelrahman--ahmed--khalifa-0077B5?style=flat-square&logo=Linkedin&logoColor=white"/>
-  </a>
-  <a href="https://www.abdelrahmankhalifa.com/" target="_blank">
-    <img alt="Portfolio" src="https://img.shields.io/badge/-Portfolio-FF5722?style=flat-square&logo=Google-Chrome&logoColor=white"/>
-  </a>
-  <a href="https://x.com/abd0_khalifa" target="_blank">
-    <img alt="X" src="https://img.shields.io/badge/-abd0__khalifa-000000?style=flat-square&logo=X&logoColor=white"/>
-  </a>
-  <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com" target="_blank">
-    <img alt="Gmail" src="https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=Gmail&logoColor=white"/>
+  <a href="https://www.abdelrahmankhalifa.com/">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=800&color=06B6D4&center=true&vCenter=true&width=600&lines=React+%C2%B7+Next.js+%C2%B7+TypeScript;Building+FreightIn+at+FTL+Group;Shipping+fast%2C+accessible+UIs;Open+to+remote+%26+hybrid+roles" alt="Typing intro"/>
   </a>
 </p>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" height="300" alt="Web Development"/>
-</div>
+<p align="center">
+  <a href="https://www.abdelrahmankhalifa.com/"><img src="https://img.shields.io/badge/Portfolio-06B6D4?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://x.com/abd0_khalifa"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
+  <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <img src="https://komarev.com/ghpvc/?username=AbdoAhmed-Khalifa&style=for-the-badge&color=1e3a8a&label=Profile+views" alt="Profile views"/>
+</p>
 
----
+<!-- ============ ABOUT ============ -->
+## 👨‍💻 About Me
 
-## 👇 About Me
+<img align="right" src="./WebDevelopment.gif" width="300" alt="Web development illustration"/>
 
-Motivated and fast-learning **Front-End Developer** with hands-on experience building responsive, high-performance web applications using **React.js**, **Next.js**, and **TypeScript**. Proficient in leveraging AI tools during development for code optimization, debugging, and workflow automation. Former instructor at **ITI** where I taught 50+ students web fundamentals. Open to remote, hybrid, or on-site opportunities worldwide.
+Frontend Developer building responsive, high-performance web apps with **React**, **Next.js** and **TypeScript**. I care about clean architecture, smooth UX and shipping fast — and I use AI tools daily for refactoring, debugging and automating the boring parts.
 
-- 🏢 Currently working at **FTL Group**, Cairo — building logistics platforms
-- 🎓 Graduated from **ITI** (Front-End & Cross-Platform Mobile) · **Sohag University** (CS)
-- 🌍 Based in **Cairo, Egypt**
-- 💬 Ask me about **React, Next.js, TypeScript, Tailwind CSS**
-- 📫 Reach me at **abdelrahmanahmedkhalifa99@gmail.com**
+- 🚢 **Now:** Frontend Developer at **FTL Group** — building **FreightIn**, a live B2B maritime logistics platform
+- 🧑‍🏫 **Before:** External Instructor at **ITI** — taught 50+ students HTML, CSS, JS & React
+- 🎓 **ITI** Front-End & Cross-Platform Mobile · **B.Sc. CS**, Sohag University
+- 💬 **Ask me about:** React, Next.js App Router, TanStack Query, Tailwind, animations
+- 🌍 Based in **Cairo, Egypt** · open to **remote, hybrid & on-site** roles
 
----
+<br clear="right"/>
 
-## 🧰 My Toolbox
-
-**Languages & Core**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-plain.svg" title="HTML5" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" title="CSS3" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" title="JavaScript" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" title="TypeScript" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" title="Node.js" width="50" height="50"/></td>
-</tr></table>
-
-**Frameworks & Libraries**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" title="React.js" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" title="Next.js" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" title="Redux Toolkit" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg" title="React Router" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" title="Express.js" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original.svg" title="Angular" width="50" height="50"/></td>
-</tr></table>
-
-**Styling & Animations**
-
-<table><tr>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" title="Tailwind CSS" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" title="Bootstrap" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" title="Sass" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" title="Material UI" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg" title="Framer Motion" width="50" height="50"/></td>
-</tr></table>
-
-**Backend, Databases & Tools**
-
-<table><tr>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain-wordmark.svg" title="Firebase" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" title="MongoDB" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" title="Supabase" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" title="Jest" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" title="Git" width="50" height="50"/></td>
-  <td><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" title="GitHub" width="50" height="50"/></td>
-  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" title="VS Code" width="50" height="50"/></td>
-</tr></table>
-
----
-
-## 💼 Experience
-
-**Front-End Developer** — FTL Group, Cairo *(Jan 2025 – Present)*
-- Built and maintained responsive logistics platforms using React.js and Next.js
-- Applied clean code practices, reducing UI bugs and improving maintainability
-- Leveraged AI tools (ChatGPT & Claude) for faster debugging and code refactoring
-
-**External Instructor** — Information Technology Institute, Sohag *(May 2024 – Jan 2025)*
-- Taught 50+ students HTML, CSS, JavaScript, and React fundamentals
-- Supervised 10+ practical assignments, improving students' coding confidence
-
----
-
-## 🚀 Projects
-
-| Project | Description | Stack |
-|---|---|---|
-| [**Freight In**](https://freightin.net/en) | Container booking logistics platform | Next.js · Tailwind · React Query · Framer Motion |
-| **Trader In** | B2B e-commerce platform for bulk product trading | Next.js · Tailwind · Shadcn · Recharts |
-| **Oasis Hotel Website** | SSR hotel website with real-time content | Next.js · Supabase · Tailwind |
-| **Oasis Hotel Dashboard** | Hotel management dashboard with charts & reservations | React.js · React Query · Recharts · Supabase |
-
----
-
-## 🎓 Education
-
-- **Front-End & Cross-Platform Mobile Development** — Information Technology Institute *(Nov 2023 – Apr 2024)*
-- **B.Sc. Computer Science** — Sohag University *(Jul 2017 – May 2021)*
-
----
-
-## 🤝 Connect with Me
+<!-- ============ STACK ============ -->
+## 🧰 Tech Stack
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa" target="_blank">
-    <img alt="LinkedIn" width="30px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Linkedin.svg"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.abdelrahmankhalifa.com/" target="_blank">
-    <img alt="Portfolio" width="30px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Designer.gif"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.instagram.com/abdokhalifa_99" target="_blank">
-    <img alt="Instagram" width="30px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Instagram.svg"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.facebook.com/profile.php?id=100004235130641" target="_blank">
-    <img alt="Facebook" width="30px" src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg"/>
-  </a>&nbsp;&nbsp;
-  <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com" target="_blank">
-    <img alt="Gmail" width="30px" src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Gmail.svg"/>
-  </a>
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,tailwind,nodejs,express&perline=8" alt="Core stack"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=html,css,sass,materialui,bootstrap,angular,supabase,firebase&perline=8" alt="Styling, frameworks & backend"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=mongodb,jest,git,github,vercel,figma,postman,vscode&perline=8" alt="Tools"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query"/>
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion"/>
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React Native"/>
+  <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white" alt="Expo"/>
+  <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square&logo=chartdotjs&logoColor=white" alt="Recharts"/>
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=flat-square&logo=reactrouter&logoColor=white" alt="React Router"/>
+</p>
+
+<!-- ============ EXPERIENCE ============ -->
+## 💼 Experience
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚢 Front-End Developer</h3>
+      <b>FTL Group</b> · Cairo<br/>
+      <sub>Jan 2025 – Present</sub>
+      <ul>
+        <li>Build and maintain <b>FreightIn</b>, a live B2B maritime logistics platform, with Next.js & React</li>
+        <li>Applied clean-code practices that cut UI bugs and improved maintainability</li>
+        <li>Use AI tools (Claude, ChatGPT) to speed up debugging and refactoring</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧑‍🏫 External Instructor</h3>
+      <b>Information Technology Institute (ITI)</b> · Sohag<br/>
+      <sub>May 2024 – Jan 2025</sub>
+      <ul>
+        <li>Taught 50+ students HTML, CSS, JavaScript and React fundamentals</li>
+        <li>Supervised 10+ practical assignments, building students' coding confidence</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<!-- ============ PROJECTS ============ -->
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://freightin.net/en">🚢 FreightIn ↗</a></h3>
+      Container-booking logistics platform for B2B shipping.<br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛒 Trader In</h3>
+      B2B e-commerce platform for bulk product trading.<br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+      <img src="https://img.shields.io/badge/shadcn%2Fui-000?style=flat-square&logo=shadcnui"/>
+      <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏨 Oasis Hotel Website</h3>
+      SSR hotel website with real-time content and bookings.<br/><br/>
+      <img src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs"/>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"/>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📊 Oasis Hotel Dashboard</h3>
+      Hotel management dashboard with charts & reservations.<br/><br/>
+      <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+      <img src="https://img.shields.io/badge/React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Recharts-22B5BF?style=flat-square"/>
+      <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white"/>
+    </td>
+  </tr>
+</table>
+
+<!-- ============ STATS ============ -->
+## 📈 GitHub Stats
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AbdoAhmed-Khalifa&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight&bg_color=0d1117"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=AbdoAhmed-Khalifa&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=default" alt="GitHub stats"/>
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdoAhmed-Khalifa&layout=compact&hide_border=true&langs_count=6&theme=tokyonight&bg_color=0d1117"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AbdoAhmed-Khalifa&layout=compact&hide_border=true&langs_count=6&theme=default" alt="Top languages"/>
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AbdoAhmed-Khalifa&theme=tokyonight&hide_border=true&background=0d1117"/>
+    <img src="https://streak-stats.demolab.com/?user=AbdoAhmed-Khalifa&theme=default&hide_border=true" alt="GitHub streak"/>
+  </picture>
+</p>
+
+<!-- ============ CONNECT ============ -->
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><img src="https://skillicons.dev/icons?i=linkedin" width="40" alt="LinkedIn"/></a>&nbsp;
+  <a href="https://x.com/abd0_khalifa"><img src="https://skillicons.dev/icons?i=twitter" width="40" alt="X / Twitter"/></a>&nbsp;
+  <a href="https://www.instagram.com/abdokhalifa_99"><img src="https://skillicons.dev/icons?i=instagram" width="40" alt="Instagram"/></a>&nbsp;
+  <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="40" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06b6d4,50:1e3a8a,100:0f172a&height=110&section=footer" width="100%" alt=""/>
 </p>
