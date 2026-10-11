@@ -68,7 +68,7 @@ PROFILE = dict(
     status="OPEN TO NEW OPPORTUNITIES",
     location="CAIRO, EGYPT",
     stats=[("2+", "YEARS IN PRODUCTION"), ("3", "LIVE PLATFORMS"),
-           ("50+", "STUDENTS TAUGHT"), ("AR/EN", "RTL-FIRST")],
+           ("7", "BANKS & WALLETS PARSED")],
 )
 
 PROJECTS = [
@@ -191,7 +191,7 @@ def _subset_b64(key: str, chars: str) -> str:
     opts = subset.Options()
     opts.flavor = "woff2"
     opts.layout_features = ["kern", "liga", "calt", "init", "medi", "fina", "isol", "rlig"]
-    font = TTFont(os.path.join(FONT_DIR, FONTS[key]))
+    font = TTFont(os.path.join(FONT_DIR, FONTS[key]), recalcTimestamp=False)  # deterministic output
     sub = subset.Subsetter(opts)
     sub.populate(text=chars)
     sub.subset(font)
