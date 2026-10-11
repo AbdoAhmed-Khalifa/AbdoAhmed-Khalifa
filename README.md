@@ -11,7 +11,6 @@
 <p>
   <a href="https://www.abdelrahmankhalifa.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>&nbsp;
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-linkedin-dark.svg"/><img src="./assets/social-linkedin-light.svg" height="36" alt="LinkedIn"/></picture></a>&nbsp;
-  <a href="https://x.com/abd0_khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-x-dark.svg"/><img src="./assets/social-x-light.svg" height="36" alt="X"/></picture></a>&nbsp;
   <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-email-dark.svg"/><img src="./assets/social-email-light.svg" height="36" alt="Email"/></picture></a>
 </p>
 
@@ -73,8 +72,6 @@
 
 <p>
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-linkedin-dark.svg"/><img src="./assets/social-linkedin-light.svg" height="36" alt="LinkedIn"/></picture></a>&nbsp;
-  <a href="https://x.com/abd0_khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-x-dark.svg"/><img src="./assets/social-x-light.svg" height="36" alt="X"/></picture></a>&nbsp;
-  <a href="https://www.instagram.com/abdokhalifa_99"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-instagram-dark.svg"/><img src="./assets/social-instagram-light.svg" height="36" alt="Instagram"/></picture></a>&nbsp;
   <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-email-dark.svg"/><img src="./assets/social-email-light.svg" height="36" alt="Email"/></picture></a>&nbsp;
   <a href="https://www.abdelrahmankhalifa.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>
 </p>
