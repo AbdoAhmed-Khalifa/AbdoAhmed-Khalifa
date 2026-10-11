@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="342" viewBox="0 0 880 342" role="img" aria-label="Toolkit. Core: TypeScript, JavaScript, React, Next.js App Router, HTML, CSS. Data &amp; State: TanStack Query, Redux Toolkit, Zustand, React Hook Form, Zod, REST. Ui &amp; Motion: Tailwind CSS, shadcn/ui, MUI, Ant Design, Sass, Framer Motion, GSAP. Mobile: React Native, Expo, NativeWind, Kotlin, SQLite. Quality: Core Web Vitals, Lighthouse, Jest, Testing Library, RTL &amp; i18n, a11y. Workflow: Figma, Git, GitHub, GitLab, Claude, Codex.">
+<title>Toolkit. Core: TypeScript, JavaScript, React, Next.js App Router, HTML, CSS. Data &amp; State: TanStack Query, Redux Toolkit, Zustand, React Hook Form, Zod, REST. Ui &amp; Motion: Tailwind CSS, shadcn/ui, MUI, Ant Design, Sass, Framer Motion, GSAP. Mobile: React Native, Expo, NativeWind, Kotlin, SQLite. Quality: Core Web Vitals, Lighthouse, Jest, Testing Library, RTL &amp; i18n, a11y. Workflow: Figma, Git, GitHub, GitLab, Claude, Codex.</title>
+<defs><linearGradient id="ac" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
+<style>
+@font-face{font-family:'mono';src:url(data:font/woff2;base64,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) format('woff2');}
+.f-mono{font-family:'mono',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
+</style>
+<text x="0.0" y="22.0" class="f-mono" font-size="13" fill="url(#ac)" letter-spacing="1">03</text>
+<text x="30.6" y="22.0" class="f-mono" font-size="13" fill="#9198a1" letter-spacing="2.4">TOOLKIT</text>
+<line x1="119.6" y1="17.5" x2="880" y2="17.5" stroke="#30363d"/>
+<text x="0.0" y="80.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">CORE</text>
+<rect x="176.0" y="62.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="80.2" class="f-mono" font-size="12" fill="#9198a1">TypeScript</text>
+<rect x="280.0" y="62.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="292.0" y="80.2" class="f-mono" font-size="12" fill="#9198a1">JavaScript</text>
+<rect x="384.0" y="62.0" width="60.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="396.0" y="80.2" class="f-mono" font-size="12" fill="#9198a1">React</text>
+<rect x="452.0" y="62.0" width="153.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="464.0" y="80.2" class="f-mono" font-size="12" fill="#9198a1">Next.js App Router</text>
+<rect x="613.6" y="62.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="625.6" y="80.2" class="f-mono" font-size="12" fill="#9198a1">HTML</text>
+<rect x="674.4" y="62.0" width="45.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="686.4" y="80.2" class="f-mono" font-size="12" fill="#9198a1">CSS</text>
+<text x="0.0" y="128.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">DATA &amp; STATE</text>
+<rect x="176.0" y="110.0" width="124.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="128.2" class="f-mono" font-size="12" fill="#9198a1">TanStack Query</text>
+<rect x="308.8" y="110.0" width="117.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="320.8" y="128.2" class="f-mono" font-size="12" fill="#9198a1">Redux Toolkit</text>
+<rect x="434.4" y="110.0" width="74.4" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="446.4" y="128.2" class="f-mono" font-size="12" fill="#9198a1">Zustand</text>
+<rect x="516.8" y="110.0" width="132.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="528.8" y="128.2" class="f-mono" font-size="12" fill="#9198a1">React Hook Form</text>
+<rect x="656.8" y="110.0" width="45.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="668.8" y="128.2" class="f-mono" font-size="12" fill="#9198a1">Zod</text>
+<rect x="710.4" y="110.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="722.4" y="128.2" class="f-mono" font-size="12" fill="#9198a1">REST</text>
+<text x="0.0" y="176.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">UI &amp; MOTION</text>
+<rect x="176.0" y="158.0" width="110.4" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="176.2" class="f-mono" font-size="12" fill="#9198a1">Tailwind CSS</text>
+<rect x="294.4" y="158.0" width="88.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="306.4" y="176.2" class="f-mono" font-size="12" fill="#9198a1">shadcn/ui</text>
+<rect x="391.2" y="158.0" width="45.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="403.2" y="176.2" class="f-mono" font-size="12" fill="#9198a1">MUI</text>
+<rect x="444.8" y="158.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="456.8" y="176.2" class="f-mono" font-size="12" fill="#9198a1">Ant Design</text>
+<rect x="548.8" y="158.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="560.8" y="176.2" class="f-mono" font-size="12" fill="#9198a1">Sass</text>
+<rect x="609.6" y="158.0" width="117.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="621.6" y="176.2" class="f-mono" font-size="12" fill="#9198a1">Framer Motion</text>
+<rect x="735.2" y="158.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="747.2" y="176.2" class="f-mono" font-size="12" fill="#9198a1">GSAP</text>
+<text x="0.0" y="224.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">MOBILE</text>
+<rect x="176.0" y="206.0" width="110.4" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="224.2" class="f-mono" font-size="12" fill="#9198a1">React Native</text>
+<rect x="294.4" y="206.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="306.4" y="224.2" class="f-mono" font-size="12" fill="#9198a1">Expo</text>
+<rect x="355.2" y="206.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="367.2" y="224.2" class="f-mono" font-size="12" fill="#9198a1">NativeWind</text>
+<rect x="459.2" y="206.0" width="67.2" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="471.2" y="224.2" class="f-mono" font-size="12" fill="#9198a1">Kotlin</text>
+<rect x="534.4" y="206.0" width="67.2" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="546.4" y="224.2" class="f-mono" font-size="12" fill="#9198a1">SQLite</text>
+<text x="0.0" y="272.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">QUALITY</text>
+<rect x="176.0" y="254.0" width="132.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="272.2" class="f-mono" font-size="12" fill="#9198a1">Core Web Vitals</text>
+<rect x="316.0" y="254.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="328.0" y="272.2" class="f-mono" font-size="12" fill="#9198a1">Lighthouse</text>
+<rect x="420.0" y="254.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="432.0" y="272.2" class="f-mono" font-size="12" fill="#9198a1">Jest</text>
+<rect x="480.8" y="254.0" width="132.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="492.8" y="272.2" class="f-mono" font-size="12" fill="#9198a1">Testing Library</text>
+<rect x="620.8" y="254.0" width="96.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="632.8" y="272.2" class="f-mono" font-size="12" fill="#9198a1">RTL &amp; i18n</text>
+<rect x="724.8" y="254.0" width="52.8" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="736.8" y="272.2" class="f-mono" font-size="12" fill="#9198a1">a11y</text>
+<text x="0.0" y="320.5" class="f-mono" font-size="11" fill="#7d8590" letter-spacing="1.6">WORKFLOW</text>
+<rect x="176.0" y="302.0" width="60.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="188.0" y="320.2" class="f-mono" font-size="12" fill="#9198a1">Figma</text>
+<rect x="244.0" y="302.0" width="45.6" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="256.0" y="320.2" class="f-mono" font-size="12" fill="#9198a1">Git</text>
+<rect x="297.6" y="302.0" width="67.2" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="309.6" y="320.2" class="f-mono" font-size="12" fill="#9198a1">GitHub</text>
+<rect x="372.8" y="302.0" width="67.2" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="384.8" y="320.2" class="f-mono" font-size="12" fill="#9198a1">GitLab</text>
+<rect x="448.0" y="302.0" width="67.2" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="460.0" y="320.2" class="f-mono" font-size="12" fill="#9198a1">Claude</text>
+<rect x="523.2" y="302.0" width="60.0" height="28" rx="7" fill="#0d1117" stroke="#30363d"/>
+<text x="535.2" y="320.2" class="f-mono" font-size="12" fill="#9198a1">Codex</text>
+</svg>
