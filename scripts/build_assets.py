@@ -68,7 +68,7 @@ PROFILE = dict(
     status="OPEN TO NEW OPPORTUNITIES",
     location="CAIRO, EGYPT",
     stats=[("2+", "YEARS IN PRODUCTION"), ("3", "LIVE PLATFORMS"),
-           ("7", "BANKS & WALLETS PARSED")],
+           ("Web + Mobile", "REACT · REACT NATIVE")],
 )
 
 PROJECTS = [
