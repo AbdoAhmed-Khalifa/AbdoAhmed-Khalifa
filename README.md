@@ -5,7 +5,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg"/>
-  <img src="./assets/hero-light.svg" width="100%" alt="Abdelrahman Khalifa — Frontend Developer in Cairo, Egypt, open to new opportunities. I build the interfaces people trust with real cargo and real money, from Figma to production. 2+ years in production, 3 live platforms, and web plus mobile (React and React Native)."/>
+  <img src="./assets/hero-light.svg" width="100%" alt="Abdelrahman Khalifa — Frontend Developer in Cairo, Egypt (GMT+3), open to new roles. Frontend for software people depend on — React, Next.js and TypeScript, shipped to production. 2+ years in production, 3 live platforms, web and mobile (React and React Native)."/>
 </picture>
 
 <p>
@@ -18,13 +18,13 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/work-dark.svg"/>
-  <img src="./assets/work-light.svg" width="100%" alt="01 — Selected work"/>
+  <img src="./assets/work-light.svg" width="100%" alt="01 — Selected work. Work that’s out in the world."/>
 </picture>
 
 <a href="https://freightin.net">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/project-freightin-dark.svg"/>
-    <img src="./assets/project-freightin-light.svg" width="100%" alt="FreightIn — live B2B logistics platform. Book ocean, air and land freight as easily as a flight: rate search, multi-step quotation requests and shipment tracking. Built with Next.js, TypeScript, TanStack Query, Tailwind and Framer Motion."/>
+    <img src="./assets/project-freightin-light.svg" width="100%" alt="FreightIn — logistics, live. Container booking for shippers: pick ports, container type and date, then book in bulk; rate search, quotation requests and shipment tracking, built from Figma to production. Built with Next.js, TypeScript, TanStack Query, Tailwind and Framer Motion."/>
   </picture>
 </a>
 
@@ -43,7 +43,7 @@
 <a href="https://tajteach.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/project-taj-dark.svg"/>
-    <img src="./assets/project-taj-light.svg" width="100%" alt="Taj — live education platform with role-based dashboards for students, teachers and admins. Built with Next.js, TypeScript, TanStack Query, Zustand and Tailwind."/>
+    <img src="./assets/project-taj-light.svg" width="100%" alt="Taj Education — edtech, live. Role-based dashboards for students, teachers and admins. Built with Next.js, TypeScript, TanStack Query, Zustand and Tailwind."/>
   </picture>
 </a>
 
@@ -51,14 +51,14 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/experience-dark.svg"/>
-  <img src="./assets/experience-light.svg" width="100%" alt="02 — Experience. Front-End Developer at FTL Group (Jan 2025 – now): built FreightIn's front end from Figma, cut LCP, set up the feature-based architecture, TanStack Query data layer. Web Developer at Coretech Innovation (Jan – Mar 2026): EV charging and IoT dashboards. Front-End Instructor at ITI (May 2024 – Jan 2025): taught 50+ students. B.Sc. Computer Science, Sohag University, and ITI Front-End & Cross-Platform Mobile diploma."/>
+  <img src="./assets/experience-light.svg" width="100%" alt="02 — Experience. Where I’ve shipped. Front-End Developer at FTL Group (Jan 2025 – now): built FreightIn's front end from Figma, cut LCP, set up the feature-based architecture, TanStack Query data layer. Web Developer at Coretech Innovation (Jan – Mar 2026): EV charging and IoT dashboards. Front-End Instructor at ITI (May 2024 – Jan 2025): taught 50+ students. B.Sc. Computer Science, Sohag University, and ITI Front-End & Cross-Platform Mobile diploma."/>
 </picture>
 
 <br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/toolkit-dark.svg"/>
-  <img src="./assets/toolkit-light.svg" width="100%" alt="03 — Toolkit. Core: TypeScript, JavaScript, React, Next.js App Router. Data and state: TanStack Query, Redux Toolkit, Zustand, React Hook Form, Zod. UI and motion: Tailwind CSS, shadcn/ui, MUI, Ant Design, Sass, Framer Motion, GSAP. Mobile: React Native, Expo, NativeWind, Kotlin, SQLite. Quality: Core Web Vitals, Lighthouse, Jest, Testing Library, RTL and i18n, accessibility. Workflow: Figma, Git, GitHub, GitLab, Claude, Codex."/>
+  <img src="./assets/toolkit-light.svg" width="100%" alt="03 — Skills. What I’m good at. Core: TypeScript, JavaScript, React, Next.js App Router. Data and state: TanStack Query, Redux Toolkit, Zustand, React Hook Form, Zod. UI and motion: Tailwind CSS, shadcn/ui, MUI, Ant Design, Sass, Framer Motion, GSAP. Mobile: React Native, Expo, NativeWind, Kotlin, SQLite. Quality: Core Web Vitals, Lighthouse, Jest, Testing Library, RTL and i18n, accessibility. Workflow: Figma, Git, GitHub, GitLab, Claude, Codex."/>
 </picture>
 
 <br/><br/>
@@ -66,7 +66,7 @@
 <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg"/>
-    <img src="./assets/contact-light.svg" width="100%" alt="04 — Contact. Have a product that deserves a sharp, fast interface? Email abdelrahmanahmedkhalifa99@gmail.com"/>
+    <img src="./assets/contact-light.svg" width="100%" alt="04 — Contact. Send me the hard screen. The dense table, the bilingual form, the flow nobody wants to own. Email abdelrahmanahmedkhalifa99@gmail.com"/>
   </picture>
 </a>
 
