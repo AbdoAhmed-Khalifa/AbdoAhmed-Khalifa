@@ -63,9 +63,6 @@ DARK = dict(
     line="#3d444d", line_strong="#656c76",
     accent="#4493f8", live="#3fb950",
 )
-# The contact section closes on an "ink block": dark colours in both themes,
-# lifted a step on dark pages so it still reads as its own block.
-INK = {"light": dict(DARK, bg="#0d1117", surface="#151b23"), "dark": dict(DARK, bg="#212830", surface="#262c36")}
 THEMES = {"light": LIGHT, "dark": DARK}
 
 # --------------------------------------------------------------- content ---
@@ -474,21 +471,16 @@ def toolkit(t: dict) -> Svg:
     return svg
 
 
-def contact(theme: str) -> Svg:
-    t = INK[theme]  # ink block in both themes
-    page = THEMES[theme]
+def contact(t: dict) -> Svg:
     h, gap = 290, 18
     c = CONTACT
     svg = Svg(W, h + gap, t, f"04 — Contact. Send me the hard screen. {c['lead']} Email {c['email']}")
-    # eyebrow sits on the page, in page colours
-    svg.t = page
     index, title, lines = SECTIONS["contact"]
-    svg.text(0, 22, index, "monoMedium", 12.5, page["accent"], ls=label(12.5))
+    svg.text(0, 22, index, "monoMedium", 12.5, t["accent"], ls=label(12.5))
     x = measure(index, "monoMedium", 12.5, label(12.5)) + 14
-    svg.text(x, 22, title, "mono", 12.5, page["muted"], ls=label(12.5))
+    svg.text(x, 22, title, "mono", 12.5, t["muted"], ls=label(12.5))
     x += measure(title, "mono", 12.5, label(12.5)) + 20
-    svg.add(f'<line x1="{x:.1f}" y1="17.5" x2="{W}" y2="17.5" stroke="{page["line"]}"/>')
-    svg.t = t
+    svg.add(f'<line x1="{x:.1f}" y1="17.5" x2="{W}" y2="17.5" stroke="{t["line"]}"/>')
     svg.add(f'<rect x="0.5" y="48.5" width="{W - 1}" height="{h - 50}" rx="20" fill="{t["bg"]}" stroke="{t["line"]}"/>')
     headline(svg, 40, 136, lines, 54, -1.2)
     svg.text(40, 180, c["lead"], "body", 18, t["body"])
@@ -525,7 +517,7 @@ def main():
             "work": work_header(t),
             "experience": experience(t),
             "toolkit": toolkit(t),
-            "contact": contact(theme),
+            "contact": contact(t),
         }
         for i, pr in enumerate(PROJECTS, 1):
             outputs[f"project-{pr['slug']}"] = project(t, pr, i)
