@@ -10,9 +10,9 @@
 .f-mono{font-family:'mono',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
 .f-monoMedium{font-family:'monoMedium',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
 </style>
-<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#e07560" letter-spacing="0.92">01</text>
-<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#a39a8d" letter-spacing="0.92">SELECTED WORK</text>
-<line x1="158.5" y1="17.5" x2="880" y2="17.5" stroke="rgba(242,237,228,0.14)"/>
-<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#f2ede4" letter-spacing="-0.8">Work that’s out in the </text>
-<text x="317.9" y="74.0" class="f-displayItalic" font-size="42" fill="#e07560" letter-spacing="-0.8">world.</text>
+<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#4493f8" letter-spacing="0.92">01</text>
+<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#9198a1" letter-spacing="0.92">SELECTED WORK</text>
+<line x1="158.5" y1="17.5" x2="880" y2="17.5" stroke="#3d444d"/>
+<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#f0f6fc" letter-spacing="-0.8">Work that’s out in the </text>
+<text x="317.9" y="74.0" class="f-displayItalic" font-size="42" fill="#4493f8" letter-spacing="-0.8">world.</text>
 </svg>

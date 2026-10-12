@@ -10,87 +10,87 @@
 .f-mono{font-family:'mono',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
 .f-monoMedium{font-family:'monoMedium',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
 </style>
-<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#e07560" letter-spacing="0.92">03</text>
-<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#a39a8d" letter-spacing="0.92">SKILLS</text>
-<line x1="99.5" y1="17.5" x2="880" y2="17.5" stroke="rgba(242,237,228,0.14)"/>
-<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#f2ede4" letter-spacing="-0.8">What I’m </text>
-<text x="141.7" y="74.0" class="f-displayItalic" font-size="42" fill="#e07560" letter-spacing="-0.8">good at.</text>
-<text x="0.0" y="148.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">CORE</text>
-<rect x="176.0" y="130.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">TypeScript</text>
-<rect x="283.0" y="130.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="295.0" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">JavaScript</text>
-<rect x="390.0" y="130.0" width="61.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="402.0" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">React</text>
-<rect x="459.5" y="130.0" width="159.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="471.5" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Next.js App Router</text>
-<rect x="626.5" y="130.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="638.5" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">HTML</text>
-<rect x="688.5" y="130.0" width="46.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="700.5" y="148.3" class="f-mono" font-size="12.5" fill="#d6cfc3">CSS</text>
-<text x="0.0" y="196.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">DATA &amp; STATE</text>
-<rect x="176.0" y="178.0" width="129.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">TanStack Query</text>
-<rect x="313.0" y="178.0" width="121.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="325.0" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Redux Toolkit</text>
-<rect x="442.5" y="178.0" width="76.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="454.5" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Zustand</text>
-<rect x="527.0" y="178.0" width="136.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="539.0" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">React Hook Form</text>
-<rect x="671.5" y="178.0" width="46.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="683.5" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Zod</text>
-<rect x="726.0" y="178.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="738.0" y="196.3" class="f-mono" font-size="12.5" fill="#d6cfc3">REST</text>
-<text x="0.0" y="244.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">UI &amp; MOTION</text>
-<rect x="176.0" y="226.0" width="114.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Tailwind CSS</text>
-<rect x="298.0" y="226.0" width="91.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="310.0" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">shadcn/ui</text>
-<rect x="397.5" y="226.0" width="46.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="409.5" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">MUI</text>
-<rect x="452.0" y="226.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="464.0" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Ant Design</text>
-<rect x="559.0" y="226.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="571.0" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Sass</text>
-<rect x="621.0" y="226.0" width="121.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="633.0" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Framer Motion</text>
-<rect x="750.5" y="226.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="762.5" y="244.3" class="f-mono" font-size="12.5" fill="#d6cfc3">GSAP</text>
-<text x="0.0" y="292.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">MOBILE</text>
-<rect x="176.0" y="274.0" width="114.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="292.3" class="f-mono" font-size="12.5" fill="#d6cfc3">React Native</text>
-<rect x="298.0" y="274.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="310.0" y="292.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Expo</text>
-<rect x="360.0" y="274.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="372.0" y="292.3" class="f-mono" font-size="12.5" fill="#d6cfc3">NativeWind</text>
-<rect x="467.0" y="274.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="479.0" y="292.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Kotlin</text>
-<rect x="544.0" y="274.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="556.0" y="292.3" class="f-mono" font-size="12.5" fill="#d6cfc3">SQLite</text>
-<text x="0.0" y="340.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">QUALITY</text>
-<rect x="176.0" y="322.0" width="136.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Core Web Vitals</text>
-<rect x="320.5" y="322.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="332.5" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Lighthouse</text>
-<rect x="427.5" y="322.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="439.5" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Jest</text>
-<rect x="489.5" y="322.0" width="136.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="501.5" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Testing Library</text>
-<rect x="634.0" y="322.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="646.0" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">RTL &amp; i18n</text>
-<rect x="741.0" y="322.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="753.0" y="340.3" class="f-mono" font-size="12.5" fill="#d6cfc3">a11y</text>
-<text x="0.0" y="388.5" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">WORKFLOW</text>
-<rect x="176.0" y="370.0" width="61.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="188.0" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Figma</text>
-<rect x="245.5" y="370.0" width="46.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="257.5" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Git</text>
-<rect x="300.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="312.0" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">GitHub</text>
-<rect x="377.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="389.0" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">GitLab</text>
-<rect x="454.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="466.0" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Claude</text>
-<rect x="531.0" y="370.0" width="61.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="543.0" y="388.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Codex</text>
+<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#4493f8" letter-spacing="0.92">03</text>
+<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#9198a1" letter-spacing="0.92">SKILLS</text>
+<line x1="99.5" y1="17.5" x2="880" y2="17.5" stroke="#3d444d"/>
+<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#f0f6fc" letter-spacing="-0.8">What I’m </text>
+<text x="141.7" y="74.0" class="f-displayItalic" font-size="42" fill="#4493f8" letter-spacing="-0.8">good at.</text>
+<text x="0.0" y="148.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">CORE</text>
+<rect x="176.0" y="130.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">TypeScript</text>
+<rect x="283.0" y="130.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="295.0" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">JavaScript</text>
+<rect x="390.0" y="130.0" width="61.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="402.0" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">React</text>
+<rect x="459.5" y="130.0" width="159.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="471.5" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Next.js App Router</text>
+<rect x="626.5" y="130.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="638.5" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">HTML</text>
+<rect x="688.5" y="130.0" width="46.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="700.5" y="148.3" class="f-mono" font-size="12.5" fill="#d1d7e0">CSS</text>
+<text x="0.0" y="196.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">DATA &amp; STATE</text>
+<rect x="176.0" y="178.0" width="129.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">TanStack Query</text>
+<rect x="313.0" y="178.0" width="121.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="325.0" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Redux Toolkit</text>
+<rect x="442.5" y="178.0" width="76.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="454.5" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Zustand</text>
+<rect x="527.0" y="178.0" width="136.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="539.0" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">React Hook Form</text>
+<rect x="671.5" y="178.0" width="46.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="683.5" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Zod</text>
+<rect x="726.0" y="178.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="738.0" y="196.3" class="f-mono" font-size="12.5" fill="#d1d7e0">REST</text>
+<text x="0.0" y="244.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">UI &amp; MOTION</text>
+<rect x="176.0" y="226.0" width="114.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Tailwind CSS</text>
+<rect x="298.0" y="226.0" width="91.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="310.0" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">shadcn/ui</text>
+<rect x="397.5" y="226.0" width="46.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="409.5" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">MUI</text>
+<rect x="452.0" y="226.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="464.0" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Ant Design</text>
+<rect x="559.0" y="226.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="571.0" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Sass</text>
+<rect x="621.0" y="226.0" width="121.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="633.0" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Framer Motion</text>
+<rect x="750.5" y="226.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="762.5" y="244.3" class="f-mono" font-size="12.5" fill="#d1d7e0">GSAP</text>
+<text x="0.0" y="292.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">MOBILE</text>
+<rect x="176.0" y="274.0" width="114.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="292.3" class="f-mono" font-size="12.5" fill="#d1d7e0">React Native</text>
+<rect x="298.0" y="274.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="310.0" y="292.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Expo</text>
+<rect x="360.0" y="274.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="372.0" y="292.3" class="f-mono" font-size="12.5" fill="#d1d7e0">NativeWind</text>
+<rect x="467.0" y="274.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="479.0" y="292.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Kotlin</text>
+<rect x="544.0" y="274.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="556.0" y="292.3" class="f-mono" font-size="12.5" fill="#d1d7e0">SQLite</text>
+<text x="0.0" y="340.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">QUALITY</text>
+<rect x="176.0" y="322.0" width="136.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Core Web Vitals</text>
+<rect x="320.5" y="322.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="332.5" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Lighthouse</text>
+<rect x="427.5" y="322.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="439.5" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Jest</text>
+<rect x="489.5" y="322.0" width="136.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="501.5" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Testing Library</text>
+<rect x="634.0" y="322.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="646.0" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">RTL &amp; i18n</text>
+<rect x="741.0" y="322.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="753.0" y="340.3" class="f-mono" font-size="12.5" fill="#d1d7e0">a11y</text>
+<text x="0.0" y="388.5" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">WORKFLOW</text>
+<rect x="176.0" y="370.0" width="61.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="188.0" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Figma</text>
+<rect x="245.5" y="370.0" width="46.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="257.5" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Git</text>
+<rect x="300.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="312.0" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">GitHub</text>
+<rect x="377.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="389.0" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">GitLab</text>
+<rect x="454.0" y="370.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="466.0" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Claude</text>
+<rect x="531.0" y="370.0" width="61.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="543.0" y="388.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Codex</text>
 </svg>

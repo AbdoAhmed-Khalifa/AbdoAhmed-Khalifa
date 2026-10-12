@@ -12,25 +12,25 @@
 .f-title{font-family:'title',Georgia, 'Times New Roman', serif;}
 .f-titleItalic{font-family:'titleItalic',Georgia, 'Times New Roman', serif;}
 </style>
-<rect x="0.5" y="0.5" width="879" height="234" rx="16" fill="#141210" stroke="rgba(242,237,228,0.14)"/>
-<text x="32.0" y="50.0" class="f-monoMedium" font-size="12.5" fill="#e07560" letter-spacing="0.92">01</text>
-<text x="62.0" y="50.0" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">LOGISTICS · LIVE</text>
-<text x="31.0" y="98.0" class="f-title" font-size="38" fill="#f2ede4" letter-spacing="-1">Freight</text>
-<text x="151.1" y="98.0" class="f-titleItalic" font-size="38" fill="#e07560" letter-spacing="-1">In</text>
-<text x="32.0" y="201.0" class="f-mono" font-size="13" fill="#e07560">freightin.net</text>
-<path d="M140.4 200.0L147.4 193.0M142.5 193.0H147.4V195.1" fill="none" stroke="#e07560" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="302" y1="32" x2="302" y2="203" stroke="rgba(242,237,228,0.14)"/>
-<text x="330.0" y="54.0" class="f-body" font-size="16.5" fill="#d6cfc3">Container booking for shippers: pick ports, container type and date,</text>
-<text x="330.0" y="79.0" class="f-body" font-size="16.5" fill="#d6cfc3">then book in bulk. Rate search, quotation requests and shipment</text>
-<text x="330.0" y="104.0" class="f-body" font-size="16.5" fill="#d6cfc3">tracking — built from Figma to production.</text>
-<rect x="330.0" y="139.0" width="76.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="342.0" y="157.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Next.js</text>
-<rect x="414.5" y="139.0" width="99.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="426.5" y="157.3" class="f-mono" font-size="12.5" fill="#d6cfc3">TypeScript</text>
-<rect x="521.5" y="139.0" width="129.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="533.5" y="157.3" class="f-mono" font-size="12.5" fill="#d6cfc3">TanStack Query</text>
-<rect x="658.5" y="139.0" width="84.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="670.5" y="157.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Tailwind</text>
-<rect x="330.0" y="175.0" width="121.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="342.0" y="193.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Framer Motion</text>
+<rect x="0.5" y="0.5" width="879" height="234" rx="16" fill="#151b23" stroke="#3d444d"/>
+<text x="32.0" y="50.0" class="f-monoMedium" font-size="12.5" fill="#4493f8" letter-spacing="0.92">01</text>
+<text x="62.0" y="50.0" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">LOGISTICS · LIVE</text>
+<text x="31.0" y="98.0" class="f-title" font-size="38" fill="#f0f6fc" letter-spacing="-1">Freight</text>
+<text x="151.1" y="98.0" class="f-titleItalic" font-size="38" fill="#4493f8" letter-spacing="-1">In</text>
+<text x="32.0" y="201.0" class="f-mono" font-size="13" fill="#4493f8">freightin.net</text>
+<path d="M140.4 200.0L147.4 193.0M142.5 193.0H147.4V195.1" fill="none" stroke="#4493f8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<line x1="302" y1="32" x2="302" y2="203" stroke="#3d444d"/>
+<text x="330.0" y="54.0" class="f-body" font-size="16.5" fill="#d1d7e0">Container booking for shippers: pick ports, container type and date,</text>
+<text x="330.0" y="79.0" class="f-body" font-size="16.5" fill="#d1d7e0">then book in bulk. Rate search, quotation requests and shipment</text>
+<text x="330.0" y="104.0" class="f-body" font-size="16.5" fill="#d1d7e0">tracking — built from Figma to production.</text>
+<rect x="330.0" y="139.0" width="76.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="342.0" y="157.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Next.js</text>
+<rect x="414.5" y="139.0" width="99.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="426.5" y="157.3" class="f-mono" font-size="12.5" fill="#d1d7e0">TypeScript</text>
+<rect x="521.5" y="139.0" width="129.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="533.5" y="157.3" class="f-mono" font-size="12.5" fill="#d1d7e0">TanStack Query</text>
+<rect x="658.5" y="139.0" width="84.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="670.5" y="157.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Tailwind</text>
+<rect x="330.0" y="175.0" width="121.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="342.0" y="193.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Framer Motion</text>
 </svg>

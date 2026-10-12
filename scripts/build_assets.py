@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Generate the SVG assets used by the profile README.
 
-The design mirrors the portfolio (abdelrahmankhalifa.com): warm paper and ink,
-an oxblood accent, Fraunces headlines with an italic accent line, Instrument
-Sans body and DM Mono labels. Every section is rendered twice (light + dark)
-with subsetted fonts embedded, so typography is identical on every OS. Text is
-measured with the real font metrics, so wrapping and chip layout are exact.
+Typography mirrors the portfolio (abdelrahmankhalifa.com): Fraunces headlines
+with an italic accent line, Instrument Sans body and DM Mono labels. Colours
+are GitHub's own (Primer), so every card sits natively on github.com.
+
+Every section is rendered twice (light + dark) with subsetted fonts embedded,
+so typography is identical on every OS. Text is measured with the real font
+metrics, so wrapping and chip layout are exact.
 
     pip install fonttools brotli
     python3 scripts/build_assets.py
@@ -49,20 +51,21 @@ FALLBACK = {
     "mono": MONO, "monoMedium": MONO, "arabic": "'Segoe UI', Tahoma, sans-serif",
 }
 
-# Same values as the portfolio's globals.css (light :root / [data-theme="dark"]).
+# GitHub Primer colours, so the cards sit natively on github.com in both themes.
+# Typography and layout still follow the portfolio.
 LIGHT = dict(
-    bg="#f4f1ea", surface="#fbf9f4", text="#1a1814", body="#3a362f", muted="#6b645a",
-    line="rgba(26,24,20,0.2)", line_strong="rgba(26,24,20,0.35)",
-    accent="#8e2f2a", live="#1f5c4a",
+    bg="#f6f8fa", surface="#ffffff", text="#1f2328", body="#1f2328", muted="#59636e",
+    line="#d1d9e0", line_strong="#818b98",
+    accent="#0969da", live="#1a7f37",
 )
 DARK = dict(
-    bg="#141210", surface="#1c1916", text="#f2ede4", body="#d6cfc3", muted="#a39a8d",
-    line="rgba(242,237,228,0.14)", line_strong="rgba(242,237,228,0.28)",
-    accent="#e07560", live="#5cb896",
+    bg="#151b23", surface="#0d1117", text="#f0f6fc", body="#d1d7e0", muted="#9198a1",
+    line="#3d444d", line_strong="#656c76",
+    accent="#4493f8", live="#3fb950",
 )
-# The contact section closes on an "ink block": dark tokens in both themes,
+# The contact section closes on an "ink block": dark colours in both themes,
 # lifted a step on dark pages so it still reads as its own block.
-INK = {"light": dict(DARK), "dark": dict(DARK, bg="#211d19", surface="#2b2622")}
+INK = {"light": dict(DARK, bg="#0d1117", surface="#151b23"), "dark": dict(DARK, bg="#212830", surface="#262c36")}
 THEMES = {"light": LIGHT, "dark": DARK}
 
 # --------------------------------------------------------------- content ---
@@ -501,7 +504,7 @@ def social_chip(t: dict, icon: str, text: str) -> Svg:
     h, pad, size, gap = 36, 14, 16, 9
     w = round(pad + size + gap + measure(text, "medium", 14.5) + pad)
     svg = Svg(w, h, t, text)
-    svg.add(f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{h / 2}" fill="{t["bg"]}" stroke="{t["line_strong"]}"/>')
+    svg.add(f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{h / 2}" fill="{t["bg"]}" stroke="{t["line"]}"/>')
     kind, d = ICONS[icon]
     paint = (f'fill="{t["text"]}"' if kind == "fill"
              else f'fill="none" stroke="{t["text"]}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"')

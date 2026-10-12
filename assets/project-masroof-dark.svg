@@ -12,27 +12,27 @@
 .f-monoMedium{font-family:'monoMedium',ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;}
 .f-title{font-family:'title',Georgia, 'Times New Roman', serif;}
 </style>
-<rect x="0.5" y="0.5" width="879" height="223" rx="16" fill="#141210" stroke="rgba(242,237,228,0.14)"/>
-<text x="32.0" y="50.0" class="f-monoMedium" font-size="12.5" fill="#e07560" letter-spacing="0.92">02</text>
-<text x="62.0" y="50.0" class="f-mono" font-size="11.5" fill="#a39a8d" letter-spacing="0.92">ANDROID · SIDE PROJECT</text>
-<text x="31.0" y="98.0" class="f-title" font-size="38" fill="#f2ede4" letter-spacing="-1">Masroof</text>
-<text x="183.2" y="96.0" class="f-arabic" font-size="22" fill="#a39a8d">مصروف</text>
-<text x="32.0" y="190.0" class="f-mono" font-size="13" fill="#a39a8d">private repo · v1.2</text>
-<line x1="302" y1="32" x2="302" y2="192" stroke="rgba(242,237,228,0.14)"/>
-<text x="330.0" y="54.0" class="f-body" font-size="16.5" fill="#d6cfc3">Your bank texts you, Masroof does the bookkeeping. It turns</text>
-<text x="330.0" y="79.0" class="f-body" font-size="16.5" fill="#d6cfc3">Egyptian bank SMS into a categorised, offline budget —</text>
-<text x="330.0" y="104.0" class="f-body" font-size="16.5" fill="#d6cfc3">subscriptions, installments, savings circles and encrypted backups.</text>
-<text x="330.0" y="129.0" class="f-body" font-size="16.5" fill="#d6cfc3">Zero network calls.</text>
-<rect x="330.0" y="164.0" width="54.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="342.0" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Expo</text>
-<rect x="392.0" y="164.0" width="114.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="404.0" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">React Native</text>
-<rect x="514.0" y="164.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="526.0" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Kotlin</text>
-<rect x="591.0" y="164.0" width="69.0" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="603.0" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">SQLite</text>
-<rect x="668.0" y="164.0" width="76.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="680.0" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Drizzle</text>
-<rect x="752.5" y="164.0" width="46.5" height="28" rx="14.0" fill="#1c1916" stroke="rgba(242,237,228,0.14)"/>
-<text x="764.5" y="182.3" class="f-mono" font-size="12.5" fill="#d6cfc3">Zod</text>
+<rect x="0.5" y="0.5" width="879" height="223" rx="16" fill="#151b23" stroke="#3d444d"/>
+<text x="32.0" y="50.0" class="f-monoMedium" font-size="12.5" fill="#4493f8" letter-spacing="0.92">02</text>
+<text x="62.0" y="50.0" class="f-mono" font-size="11.5" fill="#9198a1" letter-spacing="0.92">ANDROID · SIDE PROJECT</text>
+<text x="31.0" y="98.0" class="f-title" font-size="38" fill="#f0f6fc" letter-spacing="-1">Masroof</text>
+<text x="183.2" y="96.0" class="f-arabic" font-size="22" fill="#9198a1">مصروف</text>
+<text x="32.0" y="190.0" class="f-mono" font-size="13" fill="#9198a1">private repo · v1.2</text>
+<line x1="302" y1="32" x2="302" y2="192" stroke="#3d444d"/>
+<text x="330.0" y="54.0" class="f-body" font-size="16.5" fill="#d1d7e0">Your bank texts you, Masroof does the bookkeeping. It turns</text>
+<text x="330.0" y="79.0" class="f-body" font-size="16.5" fill="#d1d7e0">Egyptian bank SMS into a categorised, offline budget —</text>
+<text x="330.0" y="104.0" class="f-body" font-size="16.5" fill="#d1d7e0">subscriptions, installments, savings circles and encrypted backups.</text>
+<text x="330.0" y="129.0" class="f-body" font-size="16.5" fill="#d1d7e0">Zero network calls.</text>
+<rect x="330.0" y="164.0" width="54.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="342.0" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Expo</text>
+<rect x="392.0" y="164.0" width="114.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="404.0" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">React Native</text>
+<rect x="514.0" y="164.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="526.0" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Kotlin</text>
+<rect x="591.0" y="164.0" width="69.0" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="603.0" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">SQLite</text>
+<rect x="668.0" y="164.0" width="76.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="680.0" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Drizzle</text>
+<rect x="752.5" y="164.0" width="46.5" height="28" rx="14.0" fill="#0d1117" stroke="#3d444d"/>
+<text x="764.5" y="182.3" class="f-mono" font-size="12.5" fill="#d1d7e0">Zod</text>
 </svg>
