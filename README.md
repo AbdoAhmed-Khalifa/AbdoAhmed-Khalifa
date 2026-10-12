@@ -9,7 +9,7 @@
 </picture>
 
 <p>
-  <a href="https://www.abdelrahmankhalifa.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>&nbsp;
+  <a href="https://portfolio-tau-eight-3b9m11u7e4.vercel.app/en"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>&nbsp;
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-linkedin-dark.svg"/><img src="./assets/social-linkedin-light.svg" height="36" alt="LinkedIn"/></picture></a>&nbsp;
   <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-email-dark.svg"/><img src="./assets/social-email-light.svg" height="36" alt="Email"/></picture></a>
 </p>
@@ -73,5 +73,5 @@
 <p>
   <a href="https://www.linkedin.com/in/abdelrahman-ahmed-khalifa"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-linkedin-dark.svg"/><img src="./assets/social-linkedin-light.svg" height="36" alt="LinkedIn"/></picture></a>&nbsp;
   <a href="mailto:abdelrahmanahmedkhalifa99@gmail.com"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-email-dark.svg"/><img src="./assets/social-email-light.svg" height="36" alt="Email"/></picture></a>&nbsp;
-  <a href="https://www.abdelrahmankhalifa.com/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>
+  <a href="https://portfolio-tau-eight-3b9m11u7e4.vercel.app/en"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/social-portfolio-dark.svg"/><img src="./assets/social-portfolio-light.svg" height="36" alt="Portfolio"/></picture></a>
 </p>
