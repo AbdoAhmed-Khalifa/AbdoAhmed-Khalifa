@@ -17,40 +17,40 @@
 .f-titleItalic{font-family:'titleItalic',Georgia, 'Times New Roman', serif;}
 .pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}@media (prefers-reduced-motion: reduce){*{animation:none!important;}}
 </style>
-<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#8e2f2a" letter-spacing="0.92">02</text>
-<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#6b645a" letter-spacing="0.92">EXPERIENCE</text>
-<line x1="133.2" y1="17.5" x2="880" y2="17.5" stroke="rgba(26,24,20,0.2)"/>
-<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#1a1814" letter-spacing="-0.8">Where I’ve </text>
-<text x="162.7" y="74.0" class="f-displayItalic" font-size="42" fill="#8e2f2a" letter-spacing="-0.8">shipped.</text>
-<line x1="196" y1="134" x2="196" y2="504" stroke="rgba(26,24,20,0.35)"/>
-<line x1="196" y1="134" x2="196" y2="304" stroke="#8e2f2a" stroke-width="1.5"/>
-<text x="0.0" y="140.0" class="f-mono" font-size="11.5" fill="#1a1814" letter-spacing="0.92">JAN 2025 — NOW</text>
-<text x="0.0" y="160.0" class="f-mono" font-size="11" fill="#6b645a" letter-spacing="0.92">CAIRO</text>
-<circle cx="196" cy="134" r="10" fill="#8e2f2a" fill-opacity=".16" class="pulse"/>
-<circle cx="196" cy="134" r="5" fill="#8e2f2a"/>
-<text x="226.0" y="140.0" class="f-title" font-size="22" fill="#1a1814" letter-spacing="-0.4">Front-End Developer</text>
-<text x="441.4" y="140.0" class="f-titleItalic" font-size="22" fill="#3a362f" letter-spacing="-0.4">FTL Group</text>
-<text x="226.0" y="172.0" class="f-body" font-size="15.5" fill="#3a362f">Built FreightIn’s front end from Figma: rate search, quotations and shipment tracking.</text>
-<text x="226.0" y="200.0" class="f-body" font-size="15.5" fill="#3a362f">Cut LCP by lazy-loading heavy dependencies and removing render-blocking work.</text>
-<text x="226.0" y="228.0" class="f-body" font-size="15.5" fill="#3a362f">Set up the feature-based architecture and shared component layer the team still builds on.</text>
-<text x="226.0" y="256.0" class="f-body" font-size="15.5" fill="#3a362f">TanStack Query data layer with real loading, error and empty states; typed multi-step forms.</text>
-<text x="0.0" y="310.0" class="f-mono" font-size="11.5" fill="#1a1814" letter-spacing="0.92">JAN — MAR 2026</text>
-<text x="0.0" y="330.0" class="f-mono" font-size="11" fill="#6b645a" letter-spacing="0.92">CAIRO</text>
-<circle cx="196" cy="304" r="5" fill="#8e2f2a"/>
-<text x="226.0" y="310.0" class="f-title" font-size="22" fill="#1a1814" letter-spacing="-0.4">Web Developer</text>
-<text x="384.7" y="310.0" class="f-titleItalic" font-size="22" fill="#3a362f" letter-spacing="-0.4">Coretech Innovation</text>
-<text x="226.0" y="342.0" class="f-body" font-size="15.5" fill="#3a362f">Admin dashboards and control UIs for EV charging systems and EEBUS integration.</text>
-<text x="226.0" y="370.0" class="f-body" font-size="15.5" fill="#3a362f">Data-dense IoT and e-mobility monitoring interfaces on REST APIs.</text>
-<text x="0.0" y="424.0" class="f-mono" font-size="11.5" fill="#1a1814" letter-spacing="0.92">MAY 2024 — JAN 2025</text>
-<text x="0.0" y="444.0" class="f-mono" font-size="11" fill="#6b645a" letter-spacing="0.92">SOHAG</text>
-<circle cx="196" cy="418" r="5" fill="#8e2f2a"/>
-<text x="226.0" y="424.0" class="f-title" font-size="22" fill="#1a1814" letter-spacing="-0.4">Front-End Instructor</text>
-<text x="440.1" y="424.0" class="f-titleItalic" font-size="22" fill="#3a362f" letter-spacing="-0.4">ITI</text>
-<text x="226.0" y="456.0" class="f-body" font-size="15.5" fill="#3a362f">Taught HTML, CSS, JavaScript and React to 50+ students; supervised 10+ projects.</text>
-<text x="0.0" y="510.0" class="f-mono" font-size="11.5" fill="#6b645a" letter-spacing="0.92">2017 — 2024</text>
-<text x="0.0" y="530.0" class="f-mono" font-size="11" fill="#6b645a" letter-spacing="0.92">EDUCATION</text>
-<circle cx="196" cy="504" r="4.5" fill="#fbf9f4" stroke="#6b645a" stroke-width="1.5"/>
-<text x="226.0" y="510.0" class="f-title" font-size="22" fill="#3a362f" letter-spacing="-0.4">B.Sc. Computer Science</text>
-<text x="464.0" y="510.0" class="f-titleItalic" font-size="22" fill="#6b645a" letter-spacing="-0.4">Sohag University</text>
-<text x="226.0" y="542.0" class="f-body" font-size="15.5" fill="#6b645a">Then ITI’s Front-End &amp; Cross-Platform Mobile diploma (Nov 2023 — Apr 2024).</text>
+<text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#0969da" letter-spacing="0.92">02</text>
+<text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#59636e" letter-spacing="0.92">EXPERIENCE</text>
+<line x1="133.2" y1="17.5" x2="880" y2="17.5" stroke="#d1d9e0"/>
+<text x="-1.0" y="74.0" class="f-display" font-size="42" fill="#1f2328" letter-spacing="-0.8">Where I’ve </text>
+<text x="162.7" y="74.0" class="f-displayItalic" font-size="42" fill="#0969da" letter-spacing="-0.8">shipped.</text>
+<line x1="196" y1="134" x2="196" y2="504" stroke="#818b98"/>
+<line x1="196" y1="134" x2="196" y2="304" stroke="#0969da" stroke-width="1.5"/>
+<text x="0.0" y="140.0" class="f-mono" font-size="11.5" fill="#1f2328" letter-spacing="0.92">JAN 2025 — NOW</text>
+<text x="0.0" y="160.0" class="f-mono" font-size="11" fill="#59636e" letter-spacing="0.92">CAIRO</text>
+<circle cx="196" cy="134" r="10" fill="#0969da" fill-opacity=".16" class="pulse"/>
+<circle cx="196" cy="134" r="5" fill="#0969da"/>
+<text x="226.0" y="140.0" class="f-title" font-size="22" fill="#1f2328" letter-spacing="-0.4">Front-End Developer</text>
+<text x="441.4" y="140.0" class="f-titleItalic" font-size="22" fill="#1f2328" letter-spacing="-0.4">FTL Group</text>
+<text x="226.0" y="172.0" class="f-body" font-size="15.5" fill="#1f2328">Built FreightIn’s front end from Figma: rate search, quotations and shipment tracking.</text>
+<text x="226.0" y="200.0" class="f-body" font-size="15.5" fill="#1f2328">Cut LCP by lazy-loading heavy dependencies and removing render-blocking work.</text>
+<text x="226.0" y="228.0" class="f-body" font-size="15.5" fill="#1f2328">Set up the feature-based architecture and shared component layer the team still builds on.</text>
+<text x="226.0" y="256.0" class="f-body" font-size="15.5" fill="#1f2328">TanStack Query data layer with real loading, error and empty states; typed multi-step forms.</text>
+<text x="0.0" y="310.0" class="f-mono" font-size="11.5" fill="#1f2328" letter-spacing="0.92">JAN — MAR 2026</text>
+<text x="0.0" y="330.0" class="f-mono" font-size="11" fill="#59636e" letter-spacing="0.92">CAIRO</text>
+<circle cx="196" cy="304" r="5" fill="#0969da"/>
+<text x="226.0" y="310.0" class="f-title" font-size="22" fill="#1f2328" letter-spacing="-0.4">Web Developer</text>
+<text x="384.7" y="310.0" class="f-titleItalic" font-size="22" fill="#1f2328" letter-spacing="-0.4">Coretech Innovation</text>
+<text x="226.0" y="342.0" class="f-body" font-size="15.5" fill="#1f2328">Admin dashboards and control UIs for EV charging systems and EEBUS integration.</text>
+<text x="226.0" y="370.0" class="f-body" font-size="15.5" fill="#1f2328">Data-dense IoT and e-mobility monitoring interfaces on REST APIs.</text>
+<text x="0.0" y="424.0" class="f-mono" font-size="11.5" fill="#1f2328" letter-spacing="0.92">MAY 2024 — JAN 2025</text>
+<text x="0.0" y="444.0" class="f-mono" font-size="11" fill="#59636e" letter-spacing="0.92">SOHAG</text>
+<circle cx="196" cy="418" r="5" fill="#0969da"/>
+<text x="226.0" y="424.0" class="f-title" font-size="22" fill="#1f2328" letter-spacing="-0.4">Front-End Instructor</text>
+<text x="440.1" y="424.0" class="f-titleItalic" font-size="22" fill="#1f2328" letter-spacing="-0.4">ITI</text>
+<text x="226.0" y="456.0" class="f-body" font-size="15.5" fill="#1f2328">Taught HTML, CSS, JavaScript and React to 50+ students; supervised 10+ projects.</text>
+<text x="0.0" y="510.0" class="f-mono" font-size="11.5" fill="#59636e" letter-spacing="0.92">2017 — 2024</text>
+<text x="0.0" y="530.0" class="f-mono" font-size="11" fill="#59636e" letter-spacing="0.92">EDUCATION</text>
+<circle cx="196" cy="504" r="4.5" fill="#ffffff" stroke="#59636e" stroke-width="1.5"/>
+<text x="226.0" y="510.0" class="f-title" font-size="22" fill="#1f2328" letter-spacing="-0.4">B.Sc. Computer Science</text>
+<text x="464.0" y="510.0" class="f-titleItalic" font-size="22" fill="#59636e" letter-spacing="-0.4">Sohag University</text>
+<text x="226.0" y="542.0" class="f-body" font-size="15.5" fill="#59636e">Then ITI’s Front-End &amp; Cross-Platform Mobile diploma (Nov 2023 — Apr 2024).</text>
 </svg>
