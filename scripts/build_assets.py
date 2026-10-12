@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Generate the SVG assets used by the profile README.
 
-Every section is rendered twice (light + dark) from the same content and
-design tokens, with subsetted fonts embedded so typography is identical on
-every OS. Text is measured with the real font metrics, so wrapping and chip
-layout are exact.
+The design mirrors the portfolio (abdelrahmankhalifa.com): warm paper and ink,
+an oxblood accent, Fraunces headlines with an italic accent line, Instrument
+Sans body and DM Mono labels. Every section is rendered twice (light + dark)
+with subsetted fonts embedded, so typography is identical on every OS. Text is
+measured with the real font metrics, so wrapping and chip layout are exact.
 
     pip install fonttools brotli
     python3 scripts/build_assets.py
@@ -14,6 +15,7 @@ from __future__ import annotations
 import base64
 import io
 import os
+import sys
 from collections import defaultdict
 from functools import lru_cache
 
@@ -29,75 +31,86 @@ W = 880  # canvas width; GitHub scales images to the README column
 # ---------------------------------------------------------------- tokens ---
 
 FONTS = {
-    "body": "Inter-Regular.woff2",
-    "medium": "Inter-Medium.woff2",
-    "semibold": "Inter-SemiBold.woff2",
-    "display": "InterDisplay-Bold.woff2",
-    "displaySemi": "InterDisplay-SemiBold.woff2",
-    "mono": "JetBrainsMono-Medium.woff2",
+    "display": "Fraunces-Display.woff2",          # wght 350, opsz 144
+    "displayItalic": "Fraunces-DisplayItalic.woff2",
+    "title": "Fraunces-Title.woff2",              # wght 420, opsz 36
+    "titleItalic": "Fraunces-TitleItalic.woff2",
+    "body": "InstrumentSans-Regular.woff2",
+    "medium": "InstrumentSans-Medium.woff2",
+    "mono": "DMMono-Regular.woff2",
+    "monoMedium": "DMMono-Medium.woff2",
     "arabic": "IBMPlexSansArabic-SemiBold.woff2",
 }
-SANS = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+SERIF = "Georgia, 'Times New Roman', serif"
+SANS = "system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+MONO = "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 FALLBACK = {
-    "mono": "ui-monospace, SFMono-Regular, Menlo, Consolas, monospace",
-    "arabic": "'Segoe UI', Tahoma, sans-serif",
+    "display": SERIF, "displayItalic": SERIF, "title": SERIF, "titleItalic": SERIF,
+    "mono": MONO, "monoMedium": MONO, "arabic": "'Segoe UI', Tahoma, sans-serif",
 }
 
-THEMES = {
-    "dark": dict(
-        text="#f0f6fc", muted="#9198a1", faint="#7d8590", border="#30363d",
-        card="#161b22", chip="#0d1117", grid="#30363d",
-        a1="#22d3ee", a2="#60a5fa", ok="#3fb950",
-    ),
-    "light": dict(
-        text="#1f2328", muted="#59636e", faint="#6e7781", border="#d1d9e0",
-        card="#ffffff", chip="#f6f8fa", grid="#d1d9e0",
-        a1="#0891b2", a2="#2563eb", ok="#1a7f37",
-    ),
-}
+# Same values as the portfolio's globals.css (light :root / [data-theme="dark"]).
+LIGHT = dict(
+    bg="#f4f1ea", surface="#fbf9f4", text="#1a1814", body="#3a362f", muted="#6b645a",
+    line="rgba(26,24,20,0.2)", line_strong="rgba(26,24,20,0.35)",
+    accent="#8e2f2a", live="#1f5c4a",
+)
+DARK = dict(
+    bg="#141210", surface="#1c1916", text="#f2ede4", body="#d6cfc3", muted="#a39a8d",
+    line="rgba(242,237,228,0.14)", line_strong="rgba(242,237,228,0.28)",
+    accent="#e07560", live="#5cb896",
+)
+# The contact section closes on an "ink block": dark tokens in both themes,
+# lifted a step on dark pages so it still reads as its own block.
+INK = {"light": dict(DARK), "dark": dict(DARK, bg="#211d19", surface="#2b2622")}
+THEMES = {"light": LIGHT, "dark": DARK}
 
 # --------------------------------------------------------------- content ---
 
 PROFILE = dict(
-    name="Abdelrahman Khalifa",
-    role="Frontend Developer",
-    statement=[
-        "I build the interfaces people trust with real cargo",
-        "and real money — from Figma to production.",
-    ],
-    status="OPEN TO NEW OPPORTUNITIES",
-    location="CAIRO, EGYPT",
+    name=["Abdelrahman", "Khalifa."],
+    eyebrow="CAIRO, EGYPT · GMT+3",
+    status="OPEN TO NEW ROLES",
+    tagline="Frontend for software people depend on — React, Next.js and "
+            "TypeScript, shipped to production.",
     stats=[("2+", "YEARS IN PRODUCTION"), ("3", "LIVE PLATFORMS"),
            ("Web + Mobile", "REACT · REACT NATIVE")],
 )
 
+SECTIONS = {
+    "work": ("01", "SELECTED WORK", ["Work that’s out in the ", "world."]),
+    "experience": ("02", "EXPERIENCE", ["Where I’ve ", "shipped."]),
+    "toolkit": ("03", "SKILLS", ["What I’m ", "good at."]),
+    "contact": ("04", "CONTACT", ["Send me the ", "hard screen."]),
+}
+
 PROJECTS = [
     dict(
-        slug="freightin", title="FreightIn", tag="LIVE · B2B LOGISTICS",
-        link="freightin.net ↗",
-        text="Book ocean, air and land freight as easily as a flight. Rate search, "
-             "multi-step quotation requests and shipment tracking — built from "
-             "Figma to production and live today.",
+        slug="freightin", title=["Freight", "In"], tag="LOGISTICS · LIVE",
+        link="freightin.net",
+        text="Container booking for shippers: pick ports, container type and date, "
+             "then book in bulk. Rate search, quotation requests and shipment "
+             "tracking — built from Figma to production.",
         stack=["Next.js", "TypeScript", "TanStack Query", "Tailwind", "Framer Motion"],
     ),
     dict(
-        slug="masroof", title="Masroof", arabic="مصروف", tag="ANDROID · SIDE PROJECT",
-        link="private repo · v1.2",
+        slug="masroof", title=["Masroof", None], arabic="مصروف", tag="ANDROID · SIDE PROJECT",
+        link=None, note="private repo · v1.2",
         text="Your bank texts you, Masroof does the bookkeeping. It turns Egyptian "
              "bank SMS into a categorised, offline budget — subscriptions, "
              "installments, savings circles and encrypted backups. Zero network calls.",
         stack=["Expo", "React Native", "Kotlin", "SQLite", "Drizzle", "Zod"],
     ),
     dict(
-        slug="traderin", title="TraderIn", tag="LIVE · B2B MARKETPLACE",
-        link="traderin.net ↗",
+        slug="traderin", title=["Trader", "In"], tag="B2B MARKETPLACE · LIVE",
+        link="traderin.net",
         text="A wholesale marketplace for bulk trading. Seller dashboards for "
              "orders, product catalogue and sales analytics with interactive charts.",
         stack=["Next.js", "TypeScript", "shadcn/ui", "Recharts", "Tailwind"],
     ),
     dict(
-        slug="taj", title="Taj", tag="LIVE · EDTECH",
-        link="tajteach.com ↗",
+        slug="taj", title=["Taj ", "Education"], tag="EDTECH · LIVE",
+        link="tajteach.com",
         text="One education platform, three worlds. Role-based dashboards that "
              "give students, teachers and admins exactly what they need.",
         stack=["Next.js", "TypeScript", "TanStack Query", "Zustand", "Tailwind"],
@@ -109,7 +122,7 @@ EXPERIENCE = [
         when="JAN 2025 — NOW", where="CAIRO", current=True,
         role="Front-End Developer", org="FTL Group",
         points=[
-            "Built FreightIn's front end from Figma: rate search, quotations and shipment tracking.",
+            "Built FreightIn’s front end from Figma: rate search, quotations and shipment tracking.",
             "Cut LCP by lazy-loading heavy dependencies and removing render-blocking work.",
             "Set up the feature-based architecture and shared component layer the team still builds on.",
             "TanStack Query data layer with real loading, error and empty states; typed multi-step forms.",
@@ -126,14 +139,12 @@ EXPERIENCE = [
     dict(
         when="MAY 2024 — JAN 2025", where="SOHAG",
         role="Front-End Instructor", org="ITI",
-        points=[
-            "Taught HTML, CSS, JavaScript and React to 50+ students; supervised 10+ projects.",
-        ],
+        points=["Taught HTML, CSS, JavaScript and React to 50+ students; supervised 10+ projects."],
     ),
     dict(
         when="2017 — 2024", where="EDUCATION", muted=True,
         role="B.Sc. Computer Science", org="Sohag University",
-        points=["Then ITI's Front-End & Cross-Platform Mobile diploma (Nov 2023 — Apr 2024)."],
+        points=["Then ITI’s Front-End & Cross-Platform Mobile diploma (Nov 2023 — Apr 2024)."],
     ),
 ]
 
@@ -147,7 +158,7 @@ TOOLKIT = [
 ]
 
 CONTACT = dict(
-    lines=["Have a product that deserves", "a sharp, fast interface?"],
+    lead="The dense table, the bilingual form, the flow nobody wants to own.",
     email="abdelrahmanahmedkhalifa99@gmail.com",
 )
 
@@ -168,22 +179,14 @@ SOCIAL = [
 
 
 @lru_cache(None)
-def _font(key: str) -> TTFont:
-    return TTFont(os.path.join(FONT_DIR, FONTS[key]))
-
-
-@lru_cache(None)
 def _metrics(key: str):
-    f = _font(key)
+    f = TTFont(os.path.join(FONT_DIR, FONTS[key]))
     return f.getBestCmap(), f["hmtx"].metrics, f["head"].unitsPerEm
 
 
 def measure(s: str, font: str, size: float, ls: float = 0) -> float:
     cmap, hmtx, upem = _metrics(font)
-    total = 0
-    for ch in s:
-        g = cmap.get(ord(ch))
-        total += hmtx[g][0] if g else upem * 0.6
+    total = sum(hmtx[cmap[ord(c)]][0] if ord(c) in cmap else upem * 0.6 for c in s)
     return total / upem * size + ls * max(len(s) - 1, 0)
 
 
@@ -225,20 +228,22 @@ class Svg:
     def __init__(self, w: int, h: int, t: dict, label: str):
         self.w, self.h, self.t, self.label = w, h, t, label
         self.parts: list[str] = []
-        self.defs: list[str] = []
         self.css: list[str] = []
         self.used: dict[str, set] = defaultdict(set)
 
     def add(self, s: str):
         self.parts.append(s)
 
-    def text(self, x, y, s, font="body", size=16, fill=None, ls=0, anchor="start", attrs=""):
+    def text(self, x, y, s, font="body", size=16, fill=None, ls=0, anchor="start"):
+        cmap = _metrics(font)[0]
+        missing = {c for c in s if c != " " and ord(c) not in cmap}
+        if missing:
+            sys.exit(f"font '{font}' has no glyph for {sorted(missing)} in {s!r}")
         self.used[font].update(s)
-        fill = fill or self.t["text"]
         ls_attr = f' letter-spacing="{ls}"' if ls else ""
         anchor_attr = f' text-anchor="{anchor}"' if anchor != "start" else ""
         self.add(f'<text x="{x:.1f}" y="{y:.1f}" class="f-{font}" font-size="{size}" '
-                 f'fill="{fill}"{ls_attr}{anchor_attr}{attrs}>{esc(s)}</text>')
+                 f'fill="{fill or self.t["text"]}"{ls_attr}{anchor_attr}>{esc(s)}</text>')
 
     def render(self) -> str:
         faces, classes = [], []
@@ -250,237 +255,258 @@ class Svg:
         return (
             f'<svg xmlns="http://www.w3.org/2000/svg" width="{self.w}" height="{self.h}" '
             f'viewBox="0 0 {self.w} {self.h}" role="img" aria-label="{esc(self.label)}">\n'
-            f"<title>{esc(self.label)}</title>\n"
-            f"<defs>{''.join(self.defs)}</defs>\n<style>\n{style}\n</style>\n"
+            f"<title>{esc(self.label)}</title>\n<style>\n{style}\n</style>\n"
             + "\n".join(self.parts) + "\n</svg>\n"
         )
 
 
-def accent_gradient(svg: Svg, gid="ac", vertical=False):
-    t = svg.t
-    x2, y2 = ("0", "1") if vertical else ("1", "0")
-    svg.defs.append(
-        f'<linearGradient id="{gid}" x1="0" y1="0" x2="{x2}" y2="{y2}">'
-        f'<stop offset="0" stop-color="{t["a1"]}"/><stop offset="1" stop-color="{t["a2"]}"/></linearGradient>'
-    )
+def label(s: str, size=11.5) -> float:
+    """Letter-spacing for mono labels: uppercase, tracked (portfolio uses 0.04em; a touch more at small sizes)."""
+    return round(size * 0.08, 2)
 
 
-def section_label(svg: Svg, y: float, index: str, title: str):
+def arrow(svg: Svg, x: float, y: float, size: float, color: str):
+    """↗ drawn as a path (none of the fonts ship the glyph)."""
+    s = size
+    svg.add(f'<path d="M{x:.1f} {y:.1f}L{x + s:.1f} {y - s:.1f}M{x + s * 0.3:.1f} {y - s:.1f}H{x + s:.1f}V{y - s * 0.7:.1f}" '
+            f'fill="none" stroke="{color}" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>')
+
+
+def headline(svg: Svg, x: float, y: float, parts: list, size: float, ls: float, plain="display", italic="displayItalic"):
+    """Upright text followed by the italic accent part, as the portfolio sets its headlines."""
     t = svg.t
-    svg.text(0, y, index, "mono", 13, "url(#ac)", ls=1)
-    x = measure(index, "mono", 13, 1) + 14
-    svg.text(x, y, title, "mono", 13, t["muted"], ls=2.4)
-    x += measure(title, "mono", 13, 2.4) + 20
-    svg.add(f'<line x1="{x:.1f}" y1="{y - 4.5}" x2="{W}" y2="{y - 4.5}" stroke="{t["border"]}"/>')
+    svg.text(x, y, parts[0], plain, size, t["text"], ls=ls)
+    if len(parts) > 1 and parts[1]:
+        svg.text(x + measure(parts[0], plain, size, ls) + ls, y, parts[1], italic, size, t["accent"], ls=ls)
+
+
+def section_head(svg: Svg, key: str, y: float = 22) -> float:
+    """Mono eyebrow with a rule, then a serif headline. Returns the y below it."""
+    t = svg.t
+    index, title, lines = SECTIONS[key]
+    svg.text(0, y, index, "monoMedium", 12.5, t["accent"], ls=label(12.5))
+    x = measure(index, "monoMedium", 12.5, label(12.5)) + 14
+    svg.text(x, y, title, "mono", 12.5, t["muted"], ls=label(12.5))
+    x += measure(title, "mono", 12.5, label(12.5)) + 20
+    svg.add(f'<line x1="{x:.1f}" y1="{y - 4.5}" x2="{W}" y2="{y - 4.5}" stroke="{t["line"]}"/>')
+    headline(svg, -1, y + 52, lines, 42, -0.8)
+    return y + 52
 
 
 def chips(svg: Svg, x0: float, y: float, items: list[str], max_x: float, h=28, gap=8) -> float:
     t = svg.t
     x = x0
     for item in items:
-        w = measure(item, "mono", 12) + 24
+        w = measure(item, "mono", 12.5) + 24
         if x + w > max_x and x > x0:
             x, y = x0, y + h + gap
-        svg.add(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h}" rx="7" '
-                f'fill="{t["chip"]}" stroke="{t["border"]}"/>')
-        svg.text(x + 12, y + h / 2 + 4.2, item, "mono", 12, t["muted"])
+        svg.add(f'<rect x="{x:.1f}" y="{y:.1f}" width="{w:.1f}" height="{h}" rx="{h / 2}" '
+                f'fill="{t["surface"]}" stroke="{t["line"]}"/>')
+        svg.text(x + 12, y + h / 2 + 4.3, item, "mono", 12.5, t["body"])
         x += w + gap
     return y + h
 
 
+def panel(svg: Svg, h: float, fill: str, y: float = 0, rx: float = 18):
+    svg.add(f'<rect x="0.5" y="{y + 0.5}" width="{W - 1}" height="{h - 1}" rx="{rx}" fill="{fill}" stroke="{svg.t["line"]}"/>')
+
+
 REDUCED = "@media (prefers-reduced-motion: reduce){*{animation:none!important;}}"
+PULSE = ".pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}"
 
 # -------------------------------------------------------------- sections ---
 
 
 def hero(t: dict) -> Svg:
     p = PROFILE
-    svg = Svg(W, 420, t, f"{p['name']} — {p['role']}. " + " ".join(p["statement"]))
-    accent_gradient(svg)
+    H = 480
+    svg = Svg(W, H + 16, t, f"{' '.join(p['name'])} — Frontend Developer in Cairo, Egypt. {p['tagline']}")
+    svg.css.append(".flow{stroke-dasharray:3 7;animation:flow 1.4s linear infinite}"
+                   "@keyframes flow{to{stroke-dashoffset:-20}}" + PULSE + REDUCED)
+    panel(svg, H, t["bg"], rx=22)
+    pad = 44
 
-    # dot grid + route graphic on the right
-    svg.defs.append(
-        f'<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">'
-        f'<circle cx="2" cy="2" r="1.1" fill="{t["grid"]}"/></pattern>'
-        '<radialGradient id="fade" cx="0.6" cy="0.5" r="0.55">'
-        '<stop offset="0" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>'
-        '<mask id="m"><rect x="560" y="0" width="320" height="360" fill="url(#fade)"/></mask>'
-    )
-    svg.css.append(
-        ".flow{stroke-dasharray:3 7;animation:flow 1.4s linear infinite}"
-        "@keyframes flow{to{stroke-dashoffset:-20}}"
-        ".pulse{animation:pulse 2.2s ease-in-out infinite}"
-        "@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}" + REDUCED
-    )
-    svg.add('<rect x="560" y="0" width="320" height="360" fill="url(#dots)" mask="url(#m)"/>')
-    route = "M612 300 C 680 300, 676 196, 744 196 S 806 92, 860 92"
-    svg.add(f'<path d="{route}" fill="none" stroke="{t["border"]}" stroke-width="2"/>')
-    svg.add(f'<path d="{route}" fill="none" stroke="url(#ac)" stroke-width="2" class="flow"/>')
-    for (cx, cy, label, lx, ly, anchor) in [
-        (612, 300, "figma", 612, 330, "middle"),
-        (744, 196, "code", 762, 172, "start"),
-        (860, 92, "production", 860, 66, "end"),
-    ]:
-        svg.add(f'<circle cx="{cx}" cy="{cy}" r="12" fill="none" stroke="{t["a1"]}" stroke-opacity=".35"/>')
-        svg.add(f'<circle cx="{cx}" cy="{cy}" r="5" fill="url(#ac)"/>')
-        svg.text(lx, ly, label, "mono", 12, t["faint"], anchor=anchor)
-    svg.add(f'<circle r="3.5" fill="{t["a1"]}"><animateMotion dur="4s" repeatCount="indefinite" path="{route}"/></circle>')
+    # eyebrow + status
+    svg.text(pad, 62, p["eyebrow"], "mono", 12, t["muted"], ls=label(12))
+    status_w = measure(p["status"], "mono", 12, label(12))
+    sx = W - pad - status_w
+    svg.add(f'<circle cx="{sx - 14}" cy="58" r="4" fill="{t["live"]}" class="pulse"/>')
+    svg.text(sx, 62, p["status"], "mono", 12, t["text"], ls=label(12))
 
-    # status pill
-    pill = p["status"]
-    pw = measure(pill, "mono", 11.5, 1.6) + 46
-    svg.add(f'<rect x="1" y="20" width="{pw:.1f}" height="30" rx="15" fill="none" stroke="{t["border"]}"/>')
-    svg.add(f'<circle cx="19" cy="35" r="4.5" fill="{t["ok"]}" class="pulse"/>')
-    svg.text(32, 39.2, pill, "mono", 11.5, t["muted"], ls=1.6)
-    svg.text(pw + 18, 39.2, "/  " + p["location"], "mono", 11.5, t["faint"], ls=1.6)
+    # route graphic (figma → code → production), sitting behind the right column
+    route = "M600 330 C 668 330, 664 232, 728 232 S 790 138, 836 138"
+    svg.add(f'<path d="{route}" fill="none" stroke="{t["line_strong"]}" stroke-width="1.5"/>')
+    svg.add(f'<path d="{route}" fill="none" stroke="{t["accent"]}" stroke-width="1.5" class="flow"/>')
+    for cx, cy, name, lx, ly, anchor in [(600, 330, "figma", 600, 358, "middle"),
+                                         (728, 232, "code", 744, 214, "start"),
+                                         (836, 138, "production", 836, 114, "end")]:
+        svg.add(f'<circle cx="{cx}" cy="{cy}" r="11" fill="none" stroke="{t["accent"]}" stroke-opacity=".3"/>')
+        svg.add(f'<circle cx="{cx}" cy="{cy}" r="4.5" fill="{t["accent"]}"/>')
+        svg.text(lx, ly, name, "mono", 12, t["muted"], anchor=anchor)
+    svg.add(f'<circle r="3" fill="{t["accent"]}"><animateMotion dur="4s" repeatCount="indefinite" path="{route}"/></circle>')
 
-    # name, role, statement
-    size = 64
-    while measure(p["name"], "display", size, -1.2) > 560:
-        size -= 1
-    svg.text(-2, 126, p["name"], "display", size, t["text"], ls=-1.2)
-    svg.text(0, 170, p["role"], "displaySemi", 30, "url(#ac)", ls=-0.4)
-    for i, line in enumerate(p["statement"]):
-        svg.text(0, 222 + i * 30, line, "body", 19.5, t["muted"])
+    # name: two lines, the last italic in the accent — as on the portfolio hero
+    size = 92
+    svg.text(pad - 4, 168, p["name"][0], "display", size, t["text"], ls=-3.6)
+    svg.text(pad - 4, 252, p["name"][1], "displayItalic", size, t["accent"], ls=-3.6)
 
-    # stats row
-    x = 0
+    for i, line in enumerate(wrap(p["tagline"], "body", 19, 500)):
+        svg.text(pad, 304 + i * 28, line, "body", 19, t["body"])
+
+    svg.add(f'<line x1="{pad}" y1="378" x2="{W - pad}" y2="378" stroke="{t["line"]}"/>')
+    x = pad
     for num, cap in p["stats"]:
-        svg.text(x, 352, num, "displaySemi", 30, t["text"], ls=-0.4)
-        svg.text(x, 380, cap, "mono", 10.5, t["faint"], ls=1.4)
-        x += max(measure(num, "displaySemi", 30), measure(cap, "mono", 10.5, 1.4)) + 44
+        svg.text(x, 424, num, "title", 30, t["text"], ls=-0.6)
+        svg.text(x, 448, cap, "mono", 11, t["muted"], ls=label(11))
+        x += max(measure(num, "title", 30, -0.6), measure(cap, "mono", 11, label(11))) + 56
     return svg
 
 
 def work_header(t: dict) -> Svg:
-    svg = Svg(W, 34, t, "Selected work")
-    accent_gradient(svg)
-    section_label(svg, 22, "01", "SELECTED WORK")
+    svg = Svg(W, 100, t, "01 — Selected work. Work that’s out in the world.")
+    section_head(svg, "work")
     return svg
 
 
+def chip_rows(items: list[str], width: float, gap=8) -> int:
+    x, n = 0.0, 1
+    for item in items:
+        w = measure(item, "mono", 12.5) + 24
+        if x + w > width and x > 0:
+            x, n = 0.0, n + 1
+        x += w + gap
+    return n
+
+
 def project(t: dict, pr: dict, index: int) -> Svg:
-    h, gap = 214, 14  # gap: transparent space below the card so stacked cards breathe
-    svg = Svg(W, h + gap, t, f"{pr['title']} — {pr['tag'].title()}. {pr['text']} Stack: {', '.join(pr['stack'])}.")
-    accent_gradient(svg)
-    accent_gradient(svg, "acv", vertical=True)
-    svg.add(f'<rect x="0.5" y="0.5" width="{W - 1}" height="{h - 1}" rx="16" fill="{t["card"]}" stroke="{t["border"]}"/>')
-    svg.add(f'<rect x="0.5" y="40" width="3" height="56" rx="1.5" fill="url(#acv)"/>')
+    col = 330
+    lines = wrap(pr["text"], "body", 16.5, W - col - 32)
+    rows = chip_rows(pr["stack"], W - col - 32)
+    chips_h = rows * 28 + (rows - 1) * 8
+    # card grows to fit: text block, 22px breathing room, chips, 32px padding
+    h = max(220, round(54 - 12 + len(lines) * 25 + 22 + chips_h + 32))
+    gap = 14  # transparent space below the card so stacked cards breathe
+    title = "".join(x for x in pr["title"] if x)
+    svg = Svg(W, h + gap, t, f"{title} — {pr['tag'].title()}. {pr['text']} Stack: {', '.join(pr['stack'])}.")
+    panel(svg, h, t["bg"], rx=16)
 
     left = 32
-    svg.text(left, 50, f"{index:02d}", "mono", 12.5, "url(#ac)", ls=1)
-    svg.text(left - 1, 92, pr["title"], "display", 32, t["text"], ls=-0.6)
+    svg.text(left, 50, f"{index:02d}", "monoMedium", 12.5, t["accent"], ls=label(12.5))
+    svg.text(left + 30, 50, pr["tag"], "mono", 11.5, t["muted"], ls=label(11.5))
+    headline(svg, left - 1, 98, pr["title"], 38, -1, "title", "titleItalic")
     if pr.get("arabic"):
-        x = left + measure(pr["title"], "display", 32, -0.6) + 12
-        svg.text(x, 91, pr["arabic"], "arabic", 22, t["faint"])
-    svg.text(left, 122, pr["tag"], "mono", 11, t["faint"], ls=1.5)
-    link_fill = "url(#ac)" if pr["link"].endswith("↗") else t["faint"]
-    svg.text(left, h - 34, pr["link"], "mono", 13, link_fill)
+        x = left + measure(title, "title", 38, -1) + 12
+        svg.text(x, 96, pr["arabic"], "arabic", 22, t["muted"])
+    if pr["link"]:
+        svg.text(left, h - 34, pr["link"], "mono", 13, t["accent"])
+        arrow(svg, left + measure(pr["link"], "mono", 13) + 7, h - 35, 7, t["accent"])
+    else:
+        svg.text(left, h - 34, pr["note"], "mono", 13, t["muted"])
 
-    col = 318
-    svg.add(f'<line x1="{col - 26}" y1="32" x2="{col - 26}" y2="{h - 32}" stroke="{t["border"]}" stroke-dasharray="2 5"/>')
-    lines = wrap(pr["text"], "body", 16, W - col - 32)
+    svg.add(f'<line x1="{col - 28}" y1="32" x2="{col - 28}" y2="{h - 32}" stroke="{t["line"]}"/>')
     for i, line in enumerate(lines):
-        svg.text(col, 52 + i * 25, line, "body", 16, t["muted"])
-    chips(svg, col, h - 32 - 28, pr["stack"], W - 32)
-    assert len(lines) <= 4, f"{pr['slug']}: description too long ({len(lines)} lines)"
+        svg.text(col, 54 + i * 25, line, "body", 16.5, t["body"])
+    chips(svg, col, h - 32 - chips_h, pr["stack"], W - 32)
     return svg
 
 
 def experience(t: dict) -> Svg:
-    left_w, rail, body_x = 176, 196, 226
-    y = 70
+    rail, body_x = 196, 226
+    y = 140
     blocks = []
     for e in EXPERIENCE:
-        pts = [wrap(pt, "body", 15, W - body_x) for pt in e["points"]]
-        height = 30 + sum(len(p) for p in pts) * 23 + (len(pts) - 1) * 6
+        pts = [wrap(pt, "body", 15.5, W - body_x) for pt in e["points"]]
         blocks.append((e, pts, y))
-        y += height + 30
-    svg = Svg(W, int(y - 10), t, "Experience. " + " ".join(
+        y += 32 + sum(len(p) for p in pts) * 24 + (len(pts) - 1) * 4 + 30
+    svg = Svg(W, int(y - 10), t, "02 — Experience. Where I’ve shipped. " + " ".join(
         f"{e['role']} at {e['org']} ({e['when'].title()}): {' '.join(e['points'])}" for e in EXPERIENCE))
-    accent_gradient(svg)
-    accent_gradient(svg, "acv", vertical=True)
-    svg.css.append(".pulse{animation:pulse 2.2s ease-in-out infinite}@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}" + REDUCED)
-    section_label(svg, 22, "02", "EXPERIENCE")
+    svg.css.append(PULSE + REDUCED)
+    section_head(svg, "experience")
 
-    first_y, last_y = blocks[0][2], blocks[-1][2]
-    svg.add(f'<line x1="{rail}" y1="{first_y - 6}" x2="{rail}" y2="{last_y - 6}" stroke="{t["border"]}" stroke-width="1.5"/>')
-    svg.add(f'<line x1="{rail}" y1="{first_y - 6}" x2="{rail}" y2="{blocks[1][2] - 6}" stroke="url(#acv)" stroke-width="1.5"/>')
+    top, bottom = blocks[0][2] - 6, blocks[-1][2] - 6
+    svg.add(f'<line x1="{rail}" y1="{top}" x2="{rail}" y2="{bottom}" stroke="{t["line_strong"]}"/>')
+    svg.add(f'<line x1="{rail}" y1="{top}" x2="{rail}" y2="{blocks[1][2] - 6}" stroke="{t["accent"]}" stroke-width="1.5"/>')
 
     for e, pts, by in blocks:
         muted = e.get("muted")
-        svg.text(0, by, e["when"], "mono", 11.5, t["muted"] if not muted else t["faint"], ls=1.2)
-        svg.text(0, by + 20, e["where"], "mono", 10.5, t["faint"], ls=1.4)
+        svg.text(0, by, e["when"], "mono", 11.5, t["text"] if not muted else t["muted"], ls=label(11.5))
+        svg.text(0, by + 20, e["where"], "mono", 11, t["muted"], ls=label(11))
         if e.get("current"):
-            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="10" fill="{t["a1"]}" fill-opacity=".18" class="pulse"/>')
+            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="10" fill="{t["accent"]}" fill-opacity=".16" class="pulse"/>')
         if muted:
-            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="4.5" fill="{t["chip"]}" stroke="{t["faint"]}" stroke-width="1.5"/>')
+            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="4.5" fill="{t["surface"]}" stroke="{t["muted"]}" stroke-width="1.5"/>')
         else:
-            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="5" fill="url(#ac)"/>')
-        svg.text(body_x, by, e["role"], "displaySemi", 19, t["text"] if not muted else t["muted"], ls=-0.2)
-        rx = body_x + measure(e["role"], "displaySemi", 19, -0.2) + 10
-        svg.text(rx, by, "· " + e["org"], "medium", 16, t["muted"])
-        ly = by + 30
+            svg.add(f'<circle cx="{rail}" cy="{by - 6}" r="5" fill="{t["accent"]}"/>')
+        svg.text(body_x, by, e["role"], "title", 22, t["text"] if not muted else t["body"], ls=-0.4)
+        rx = body_x + measure(e["role"], "title", 22, -0.4) + 8
+        svg.text(rx, by, e["org"], "titleItalic", 22, t["body"] if not muted else t["muted"], ls=-0.4)
+        ly = by + 32
         for lines in pts:
             for line in lines:
-                svg.text(body_x, ly, line, "body", 15, t["muted"] if not muted else t["faint"])
-                ly += 23
-            ly += 6
+                svg.text(body_x, ly, line, "body", 15.5, t["body"] if not muted else t["muted"])
+                ly += 24
+            ly += 4
     return svg
 
 
 def toolkit(t: dict) -> Svg:
-    y = 62
+    start, col = 130, 176
+    y = start
     rows = []
-    for label, items in TOOLKIT:
-        rows.append((label, items, y))
-        # pre-measure to know how many chip rows this group needs
-        x, n = 176, 1
+    for name, items in TOOLKIT:
+        rows.append((name, items, y))
+        x, n = col, 1  # pre-measure how many chip rows this group needs
         for item in items:
-            w = measure(item, "mono", 12) + 24
-            if x + w > W and x > 176:
-                x, n = 176, n + 1
+            w = measure(item, "mono", 12.5) + 24
+            if x + w > W and x > col:
+                x, n = col, n + 1
             x += w + 8
         y += n * 36 + 12
-    svg = Svg(W, int(y - 8), t, "Toolkit. " + " ".join(f"{l.title()}: {', '.join(i)}." for l, i, _ in rows))
-    accent_gradient(svg)
-    section_label(svg, 22, "03", "TOOLKIT")
-    for label, items, ry in rows:
-        svg.text(0, ry + 18.5, label, "mono", 11, t["faint"], ls=1.6)
-        chips(svg, 176, ry, items, W)
+    svg = Svg(W, int(y - 8), t, "03 — Skills. What I’m good at. " + " ".join(
+        f"{n.title()}: {', '.join(i)}." for n, i, _ in rows))
+    section_head(svg, "toolkit")
+    for name, items, ry in rows:
+        svg.text(0, ry + 18.5, name, "mono", 11.5, t["muted"], ls=label(11.5))
+        chips(svg, col, ry, items, W)
     return svg
 
 
-def contact(t: dict) -> Svg:
-    h, gap = 250, 18
+def contact(theme: str) -> Svg:
+    t = INK[theme]  # ink block in both themes
+    page = THEMES[theme]
+    h, gap = 290, 18
     c = CONTACT
-    svg = Svg(W, h + gap, t, " ".join(c["lines"]) + f" Email {c['email']}")
-    accent_gradient(svg)
-    svg.defs.append(
-        f'<radialGradient id="glow" cx="1" cy="0" r="0.9"><stop offset="0" stop-color="{t["a1"]}" stop-opacity=".16"/>'
-        f'<stop offset="1" stop-color="{t["a1"]}" stop-opacity="0"/></radialGradient>'
-    )
-    section_label(svg, 22, "04", "CONTACT")
-    svg.add(f'<rect x="0.5" y="48.5" width="{W - 1}" height="{h - 50}" rx="16" fill="{t["card"]}" stroke="{t["border"]}"/>')
-    svg.add(f'<rect x="0.5" y="48.5" width="{W - 1}" height="{h - 50}" rx="16" fill="url(#glow)"/>')
-    for i, line in enumerate(c["lines"]):
-        svg.text(32, 112 + i * 44, line, "display", 36, t["text"], ls=-0.8)
-    svg.text(32, 210, c["email"] + "  ↗", "mono", 14, "url(#ac)")
+    svg = Svg(W, h + gap, t, f"04 — Contact. Send me the hard screen. {c['lead']} Email {c['email']}")
+    # eyebrow sits on the page, in page colours
+    svg.t = page
+    index, title, lines = SECTIONS["contact"]
+    svg.text(0, 22, index, "monoMedium", 12.5, page["accent"], ls=label(12.5))
+    x = measure(index, "monoMedium", 12.5, label(12.5)) + 14
+    svg.text(x, 22, title, "mono", 12.5, page["muted"], ls=label(12.5))
+    x += measure(title, "mono", 12.5, label(12.5)) + 20
+    svg.add(f'<line x1="{x:.1f}" y1="17.5" x2="{W}" y2="17.5" stroke="{page["line"]}"/>')
+    svg.t = t
+    svg.add(f'<rect x="0.5" y="48.5" width="{W - 1}" height="{h - 50}" rx="20" fill="{t["bg"]}" stroke="{t["line"]}"/>')
+    headline(svg, 40, 136, lines, 54, -1.2)
+    svg.text(40, 180, c["lead"], "body", 18, t["body"])
+    svg.add(f'<line x1="40" y1="210" x2="{W - 40}" y2="210" stroke="{t["line"]}"/>')
+    svg.text(40, 250, c["email"], "mono", 15, t["accent"])
+    arrow(svg, 40 + measure(c["email"], "mono", 15) + 9, 249, 8, t["accent"])
+    svg.text(W - 40, 250, "EMAIL ME", "monoMedium", 12, t["text"], ls=label(12), anchor="end")
     return svg
 
 
-
-def social_chip(t: dict, icon: str, label: str) -> Svg:
+def social_chip(t: dict, icon: str, text: str) -> Svg:
     """A single link chip: brand glyph + label. One image per link so each can be wrapped in <a>."""
     h, pad, size, gap = 36, 14, 16, 9
-    w = round(pad + size + gap + measure(label, "medium", 14) + pad)
-    svg = Svg(w, h, t, label)
-    svg.add(f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="10" fill="{t["card"]}" stroke="{t["border"]}"/>')
+    w = round(pad + size + gap + measure(text, "medium", 14.5) + pad)
+    svg = Svg(w, h, t, text)
+    svg.add(f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{h / 2}" fill="{t["bg"]}" stroke="{t["line_strong"]}"/>')
     kind, d = ICONS[icon]
     paint = (f'fill="{t["text"]}"' if kind == "fill"
              else f'fill="none" stroke="{t["text"]}" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"')
     svg.add(f'<path transform="translate({pad} {(h - size) / 2}) scale({size / 24})" d="{d}" {paint}/>')
-    svg.text(pad + size + gap, h / 2 + 5, label, "medium", 14, t["text"])
+    svg.text(pad + size + gap, h / 2 + 5, text, "medium", 14.5, t["text"])
     return svg
 
 
@@ -489,24 +515,24 @@ def social_chip(t: dict, icon: str, label: str) -> Svg:
 
 def main():
     os.makedirs(OUT_DIR, exist_ok=True)
-    builders = {
-        "hero": hero,
-        "work": work_header,
-        "experience": experience,
-        "toolkit": toolkit,
-        "contact": contact,
-    }
+    count = 0
     for theme, t in THEMES.items():
-        outputs = {name: fn(t) for name, fn in builders.items()}
+        outputs = {
+            "hero": hero(t),
+            "work": work_header(t),
+            "experience": experience(t),
+            "toolkit": toolkit(t),
+            "contact": contact(theme),
+        }
         for i, pr in enumerate(PROJECTS, 1):
             outputs[f"project-{pr['slug']}"] = project(t, pr, i)
-        for slug, icon, label in SOCIAL:
-            outputs[f"social-{slug}"] = social_chip(t, icon, label)
+        for slug, icon, text in SOCIAL:
+            outputs[f"social-{slug}"] = social_chip(t, icon, text)
         for name, svg in outputs.items():
-            path = os.path.join(OUT_DIR, f"{name}-{theme}.svg")
-            with open(path, "w", encoding="utf-8") as f:
+            with open(os.path.join(OUT_DIR, f"{name}-{theme}.svg"), "w", encoding="utf-8") as f:
                 f.write(svg.render())
-    print(f"wrote {len(outputs) * len(THEMES)} files to {os.path.relpath(OUT_DIR, ROOT)}/")
+            count += 1
+    print(f"wrote {count} files to {os.path.relpath(OUT_DIR, ROOT)}/")
 
 
 if __name__ == "__main__":
