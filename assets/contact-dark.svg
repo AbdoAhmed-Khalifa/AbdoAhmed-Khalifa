@@ -15,7 +15,7 @@
 <text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#4493f8" letter-spacing="0.92">04</text>
 <text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#9198a1" letter-spacing="0.92">CONTACT</text>
 <line x1="107.9" y1="17.5" x2="880" y2="17.5" stroke="#3d444d"/>
-<rect x="0.5" y="48.5" width="879" height="240" rx="20" fill="#212830" stroke="#3d444d"/>
+<rect x="0.5" y="48.5" width="879" height="240" rx="20" fill="#151b23" stroke="#3d444d"/>
 <text x="40.0" y="136.0" class="f-display" font-size="54" fill="#f0f6fc" letter-spacing="-1.2">Send me the </text>
 <text x="281.9" y="136.0" class="f-displayItalic" font-size="54" fill="#4493f8" letter-spacing="-1.2">hard screen.</text>
 <text x="40.0" y="180.0" class="f-body" font-size="18" fill="#d1d7e0">The dense table, the bilingual form, the flow nobody wants to own.</text>

@@ -15,12 +15,12 @@
 <text x="0.0" y="22.0" class="f-monoMedium" font-size="12.5" fill="#0969da" letter-spacing="0.92">04</text>
 <text x="29.9" y="22.0" class="f-mono" font-size="12.5" fill="#59636e" letter-spacing="0.92">CONTACT</text>
 <line x1="107.9" y1="17.5" x2="880" y2="17.5" stroke="#d1d9e0"/>
-<rect x="0.5" y="48.5" width="879" height="240" rx="20" fill="#0d1117" stroke="#3d444d"/>
-<text x="40.0" y="136.0" class="f-display" font-size="54" fill="#f0f6fc" letter-spacing="-1.2">Send me the </text>
-<text x="281.9" y="136.0" class="f-displayItalic" font-size="54" fill="#4493f8" letter-spacing="-1.2">hard screen.</text>
-<text x="40.0" y="180.0" class="f-body" font-size="18" fill="#d1d7e0">The dense table, the bilingual form, the flow nobody wants to own.</text>
-<line x1="40" y1="210" x2="840" y2="210" stroke="#3d444d"/>
-<text x="40.0" y="250.0" class="f-mono" font-size="15" fill="#4493f8">abdelrahmanahmedkhalifa99@gmail.com</text>
-<path d="M364.0 249.0L372.0 241.0M366.4 241.0H372.0V243.4" fill="none" stroke="#4493f8" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-<text x="840.0" y="250.0" class="f-monoMedium" font-size="12" fill="#f0f6fc" letter-spacing="0.92" text-anchor="end">EMAIL ME</text>
+<rect x="0.5" y="48.5" width="879" height="240" rx="20" fill="#f6f8fa" stroke="#d1d9e0"/>
+<text x="40.0" y="136.0" class="f-display" font-size="54" fill="#1f2328" letter-spacing="-1.2">Send me the </text>
+<text x="281.9" y="136.0" class="f-displayItalic" font-size="54" fill="#0969da" letter-spacing="-1.2">hard screen.</text>
+<text x="40.0" y="180.0" class="f-body" font-size="18" fill="#1f2328">The dense table, the bilingual form, the flow nobody wants to own.</text>
+<line x1="40" y1="210" x2="840" y2="210" stroke="#d1d9e0"/>
+<text x="40.0" y="250.0" class="f-mono" font-size="15" fill="#0969da">abdelrahmanahmedkhalifa99@gmail.com</text>
+<path d="M364.0 249.0L372.0 241.0M366.4 241.0H372.0V243.4" fill="none" stroke="#0969da" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="840.0" y="250.0" class="f-monoMedium" font-size="12" fill="#1f2328" letter-spacing="0.92" text-anchor="end">EMAIL ME</text>
 </svg>
